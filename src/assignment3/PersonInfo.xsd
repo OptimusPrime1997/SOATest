@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.nju.edu.cn/schema"
+	xmlns:nju="http://www.nju.edu.cn/schema" xmlns:tns="http://jw.nju.edu.cn/schema"
+	elementFormDefault="qualified">
+
+	<include schemaLocation="Department.xsd"></include>
+	<simpleType name="姓名类型">
+		<restriction base="string">
+			<minLength value="1" />
+			<maxLength value="20" />
+		</restriction>
+	</simpleType>
+	<!-- <element name="姓名" type="nju:姓名类型" /> -->
+
+
+	<simpleType name="婚姻类型">
+		<restriction base="string">
+			<enumeration value="未婚"></enumeration>
+			<enumeration value="已婚"></enumeration>
+			<enumeration value="离异"></enumeration>
+			<enumeration value="丧偶"></enumeration>
+			<enumeration value="保密"></enumeration>
+		</restriction>
+	</simpleType>
+
+
+	<simpleType name="教育类型">
+		<restriction base="string">
+			<enumeration value="专科"></enumeration>
+			<enumeration value="本科"></enumeration>
+			<enumeration value="硕士"></enumeration>
+			<enumeration value="博士"></enumeration>
+			<enumeration value="其他"></enumeration>
+		</restriction>
+	</simpleType>
+
+
+	<simpleType name="手机号码类型">
+		<restriction base="string">
+			<pattern value="([0-9]){11}" />
+		</restriction>
+	</simpleType>
+	<!-- <element name="手机号码" type="nju:手机号码类型" /> -->
+
+	<simpleType name="地址类型">
+		<restriction base="string">
+			<minLength value="1" />
+			<maxLength value="50" />
+		</restriction>
+	</simpleType>
+	<!-- <element name="常住地址" type="nju:地址类型" /> -->
+
+	<simpleType name="性别类型">
+		<restriction base="string">
+			<enumeration value="男" />
+			<enumeration value="女" />
+		</restriction>
+	</simpleType>
+	<!-- <element name="性别" type="nju:性别类型" /> -->
+
+	<simpleType name="日期类型">
+		<restriction base="date">
+			<minInclusive value="1900-01-01" />
+			<maxInclusive value="2100-01-01" />
+		</restriction>
+	</simpleType>
+	<!-- <element name="出生日期" type="nju:日期类型" /> -->
+
+	<simpleType name="身份证号类型">
+		<restriction base="string">
+			<!-- <pattern value="^([1-9])\d{17}" /> -->
+			<length value="18" />
+		</restriction>
+	</simpleType>
+	<!-- <element name="身份证号" type="nju:身份证号类型" /> <element name="所在部门" type="nju:部门名称类型" 
+		/> -->
+
+
+	<complexType name="个人基本信息类型">
+		<sequence>
+			<element name="姓名" type="nju:姓名类型"></element>
+			<element name="性别" type="nju:性别类型"></element>
+			<element name="出生日期" type="nju:日期类型" />
+			<element name="身份证号" type="nju:身份证号类型" />
+			<element name="教育背景" type="nju:教育类型"></element>
+			<element name="婚姻状况" type="nju:婚姻类型"></element>
+			<element name="手机号码" type="nju:手机号码类型"></element>
+			<element name="地址" type="nju:地址类型"></element>
+			<element ref="nju:部门"></element>
+		</sequence>
+	</complexType>
+
+	<element name="个人基本信息" type="nju:个人基本信息类型" />
+</schema>

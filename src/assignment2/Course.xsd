@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://jw.nju.edu.cn/schema"
+	xmlns:tns="http://jw.nju.edu.cn/schema" elementFormDefault="qualified">
+
+
+	<simpleType name="课程编号类型">
+		<restriction base="string">
+			<length value="6"></length>
+		</restriction>
+	</simpleType>
+	<!-- <element name="课程编号" type="tns:课程编号类型"></element> -->
+
+
+	<simpleType name="课程名类型">
+		<restriction base="string">
+			<minLength value="1" />
+			<maxLength value="50" />
+		</restriction>
+	</simpleType>
+	<!-- <element name="课程名" type="tns:课程名类型" /> -->
+
+
+	<simpleType name="课程类型">
+		<restriction base="string">
+			<enumeration value="专业" />
+			<enumeration value="通识" />
+			<enumeration value="体育" />
+			<enumeration value="公选" />
+			<enumeration value="选修" />
+		</restriction>
+	</simpleType>
+	<!-- <element name="课程类型" type="tns:课程类型" /> -->
+
+
+	<simpleType name="学分类型">
+		<restriction base="integer">
+			<minExclusive value="1" />
+			<maxInclusive value="8" />
+		</restriction>
+	</simpleType>
+	<!-- <element name="学分" type="tns:学分类型" /> -->
+
+	<simpleType name="校区类型">
+		<restriction base="string">
+			<enumeration value="鼓楼校区" />
+			<enumeration value="仙林校区" />
+		</restriction>
+	</simpleType>
+	
+	<simpleType name="选课类型">
+		<restriction base="string">
+			<enumeration value="指选" />
+			<enumeration value="自选" />
+		</restriction>
+	</simpleType>
+
+	<complexType name="课程信息">
+		<all>
+			<element name="课程编号" type="tns:课程编号类型"></element>
+			<element name="课程名称" type="string"></element>
+			<element name="校区" type="tns:校区类型"></element>
+			<element name="任课教师" type="string"></element>
+			<element name="上课时间及地点" type="string"></element>
+			<element name="选课类型" type="tns:选课类型"></element>
+			<element name="考试时间" type="date"></element>
+			<element name="学分" type="tns:学分类型"></element>
+			<element name="选课人数" type="nonNegativeInteger"></element>
+			<element name="课程描述" type="string"></element>
+			<element name="参考教材" type="string"></element>
+			<element name="开始时间" type="date"></element>
+			<element name="结束时间" type="date"></element>
+		</all>
+	</complexType>
+
+	<element name="课程" type="tns:课程信息"></element>
+
+</schema>
