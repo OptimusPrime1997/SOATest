@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<studentType>
+    <CourseScoreList>
+        <courseNo>00001</courseNo>
+        <score>
+            <realScore>141250068</realScore>
+            <studentNo>90</studentNo>
+        </score>
+        <scoreType>期末考试</scoreType>
+    </CourseScoreList>
+    <Grade>14</Grade>
+    <IndividualBaseInfo>
+        <address>南京大学</address>
+        <birth>1111-11-11</birth>
+        <department>
+            <departmentAttribute>xxx</departmentAttribute>
+            <departmentDescribe>xxxxxx</departmentDescribe>
+            <departmentManager>软件学院</departmentManager>
+            <departmentName>xxxxxxxx</departmentName>
+            <departmentNo>025</departmentNo>
+        </department>
+        <educationBackground>本科</educationBackground>
+        <id>522123199505051011</id>
+        <maritalStatus>未婚</maritalStatus>
+        <name>yha</name>
+        <phoneNum>13279702112</phoneNum>
+        <sex>男</sex>
+        <__hashCodeCalc>false</__hashCodeCalc>
+    </IndividualBaseInfo>
+    <StudentNo>141250068</StudentNo>
+    <__hashCodeCalc>false</__hashCodeCalc>
+</studentType>

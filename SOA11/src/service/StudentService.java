@@ -12,6 +12,7 @@ import javax.xml.rpc.ServiceException;
 import entity.Score;
 import entity.ScoreList;
 import jaxb.EmailLoginType;
+import jaxb.ResponseType;
 import stuPort.CourseScoreType;
 import stuPort.DepartmentType;
 import stuPort.IndividualBaseInfoType;
@@ -89,10 +90,45 @@ public class StudentService implements StudentServiceInterface {
 		recordString(result, file2);
 	}
 	
+	public void update(Score score){
+		StdManageServicePort port = init();
+		String result = "";
+		StudentType student = register(score.getStudentId(), score.getCourseId(), score.getScoreType(), score.getScore());
+		try {
+			result = port.updateStd(student);
+		} catch (RemoteException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println(result);
+		File file1 = stuFile("message/modifyRequest.xml");
+		recordStudent(student, file1);
+		File file2 = stuFile("message/modifyResponse.xml");
+		recordString(result, file2);
+	}
+	
+	public StudentType query(String studentNo){
+		StdManageServicePort port = init();
+		String result = "";
+		StudentType student = null;
+		try {
+			student = port.queryStd(studentNo);
+		} catch (RemoteException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println(result);
+		File file1 = stuFile("message/queryRequest.xml");
+		recordString(studentNo, file1);
+		File file2 = stuFile("message/queryResponse.xml");
+		recordStudent(student, file2);
+		
+		return student;
+	}
+	
 	
 	
 	private StudentType register(String studentNo, String courseNo, String scoreType, String testScore){
-		
 		StudentType student = new StudentType();
 		student.setGrade("14");
 		CourseScoreType[] courses = new CourseScoreType[1];
@@ -127,7 +163,6 @@ public class StudentService implements StudentServiceInterface {
 			Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
 			// output pretty printed
 			jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
-//			jaxbMarshaller.marshal(student, System.out);
 			jaxbMarshaller.marshal(student, file);
 
 		} catch (JAXBException e1) {
@@ -139,12 +174,15 @@ public class StudentService implements StudentServiceInterface {
 	private  void recordString(String response, File file){
 		JAXBContext jaxbContext1;
 		try {
-			jaxbContext1 = JAXBContext.newInstance(String.class);
+			jaxbContext1 = JAXBContext.newInstance(ResponseType.class);
 
 			Marshaller jaxbMarshaller1 = jaxbContext1.createMarshaller();
 			// output pretty printed
 			jaxbMarshaller1.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
-			jaxbMarshaller1.marshal(response, file);
+			
+			ResponseType studentResponseType = new ResponseType();
+			studentResponseType.setContent(response);
+			jaxbMarshaller1.marshal(studentResponseType, file);
 
 		} catch (JAXBException e1) {
 			// TODO Auto-generated catch block
@@ -152,12 +190,6 @@ public class StudentService implements StudentServiceInterface {
 		}
 	}
 	
-	
-	public static void main(String[] args){
-		Score score = new Score("00001", "期末考试", "141250068", "90");
-		StudentService service = new StudentService();
-		service.insert(score);
-	}
 	
 	@Override
 	public ScoreList findScoreListById(String studentId) {
@@ -247,6 +279,23 @@ public class StudentService implements StudentServiceInterface {
 	public void addScore(Score score) {
 		// TODO Auto-generated method stub
 
+	}
+	
+	
+	public static void main(String[] args){
+		StudentService service = new StudentService();
+		
+		Score score = new Score("00001", "期末考试", "141250068", "90");
+		service.insert(score);
+		
+		Score score1 = new Score("00001", "期末考试", "141250068", "95");
+		service.update(score1);
+		
+		StudentType student = service.query("141250068");
+		System.out.println(student.getStudentNo());
+		
+		service.delete("141250068");
+		
 	}
 
 }
