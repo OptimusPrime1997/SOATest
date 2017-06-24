@@ -33,29 +33,6 @@ public class EmailLoginTest {
 		emailLoginType.setPassword(password);
 		String result = "";
 
-		File file = new File("message/EmailLoginInput.xml");
-		if (!file.exists()) {
-			try {
-				file.createNewFile();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
-
-		JAXBContext jaxbContext;
-		try {
-			jaxbContext = JAXBContext.newInstance(EmailLoginType.class);
-			Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
-			// output pretty printed
-			jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
-			jaxbMarshaller.marshal(emailLoginType, System.out);
-			jaxbMarshaller.marshal(emailLoginType, file);
-		} catch (JAXBException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-
 		try {
 			result = port.emailLogin(username, password);
 			System.out.println(result);
@@ -63,6 +40,42 @@ public class EmailLoginTest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+
+		File file = new File("message/EmailLoginInput.xml");
+		File file1 = new File("message/EmailLoginOutput.xml");
+		if (!file.exists()) {
+			try {
+				file.createNewFile();
+				file1.createNewFile();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+
+		JAXBContext jaxbContext;
+		JAXBContext jaxbContext1;
+		try {
+			jaxbContext = JAXBContext.newInstance(EmailLoginType.class);
+			Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
+			// output pretty printed
+			jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+			jaxbMarshaller.marshal(emailLoginType, System.out);
+			jaxbMarshaller.marshal(emailLoginType, file);
+
+			jaxbContext1 = JAXBContext.newInstance(String.class);
+
+			Marshaller jaxbMarshaller1 = jaxbContext1.createMarshaller();
+			// output pretty printed
+			jaxbMarshaller1.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+			jaxbMarshaller1.marshal(result, System.out);
+			jaxbMarshaller1.marshal(result, file);
+
+		} catch (JAXBException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+
 		switch (result) {
 		case Const.TEACHER_LOGIN:
 			break;
