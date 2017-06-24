@@ -69,7 +69,7 @@ public class EmailLoginTest {
 			// output pretty printed
 			jaxbMarshaller1.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 			jaxbMarshaller1.marshal(result, System.out);
-			jaxbMarshaller1.marshal(result, file);
+			jaxbMarshaller1.marshal(result, file1);
 
 		} catch (JAXBException e1) {
 			// TODO Auto-generated catch block
