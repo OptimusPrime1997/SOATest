@@ -11,8 +11,8 @@ import javax.xml.rpc.ServiceException;
 
 import fromJAVA.EmailLoginImpl;
 import fromJAVA.EmailLoginImplServiceLocator;
+import jaxb.ResponseType;
 import jaxb.EmailLoginType;
-import util.Const;
 
 public class EmailLoginTest {
 
@@ -27,7 +27,7 @@ public class EmailLoginTest {
 			e.printStackTrace();
 		}
 		String username = "141250085@smail.nju.edu.cn";
-		String password = "Jie!18780107043";
+		String password = "12345678";
 		EmailLoginType emailLoginType = new EmailLoginType();
 		emailLoginType.setUsername(username);
 		emailLoginType.setPassword(password);
@@ -63,32 +63,23 @@ public class EmailLoginTest {
 			jaxbMarshaller.marshal(emailLoginType, System.out);
 			jaxbMarshaller.marshal(emailLoginType, file);
 
-			jaxbContext1 = JAXBContext.newInstance(String.class);
+			jaxbContext1 = JAXBContext.newInstance(ResponseType.class);
 
 			Marshaller jaxbMarshaller1 = jaxbContext1.createMarshaller();
 			// output pretty printed
 			jaxbMarshaller1.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
-			jaxbMarshaller1.marshal(result, System.out);
-			jaxbMarshaller1.marshal(result, file1);
+
+
+			ResponseType emailLoginResponseType = new ResponseType();
+			emailLoginResponseType.setContent(result);
+			jaxbMarshaller1.marshal(emailLoginResponseType, System.out);
+			jaxbMarshaller1.marshal(emailLoginResponseType, file1);
 
 		} catch (JAXBException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 
-		switch (result) {
-		case Const.TEACHER_LOGIN:
-			break;
-		case Const.GRADUATE_LOGIN:
-
-			break;
-		case Const.UNDERGRADUATE_LOGIN:
-
-			break;
-
-		default:
-			break;
-		}
 		// result = port.addStd(student);
 		// System.out.println(result);
 
