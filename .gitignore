@@ -1,5 +1,6 @@
 *.class
-
+*.classpath
+*.project
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
@@ -70,5 +71,6 @@ WebContent/
 !SOA11/WebContent/
 /SOA11/build/
 /SOA11/.settings/
-/SOA11/build/
 
+
+*.classpath

@@ -1,18 +1,13 @@
 package test;
 
-import java.io.File;
-import java.io.IOException;
-import java.rmi.RemoteException;
-
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
 import javax.xml.rpc.ServiceException;
+
+import org.apache.tomcat.jni.File;
 
 import fromJAVA.EmailLoginImpl;
 import fromJAVA.EmailLoginImplServiceLocator;
-import jaxb.ResponseType;
 import jaxb.EmailLoginType;
+import jaxb.ResponseType;
 
 public class EmailLoginTest {
 
