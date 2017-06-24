@@ -1,44 +1,49 @@
 <xsl:stylesheet version="1.0"
-	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="http://jw.nju.edu.cn/schema">
+	<!-- <xsl:namespace-alias stylesheet-prefix="xsl" result-prefix="#default" 
+		/> -->
+	<xsl:output method="xml" indent="yes" xmlns:xslt="http://xml.apache.org/xslt"
+		xslt:indent-amount="4"  />
 	<xsl:template match="/">
-		<xsl:element name="课程成绩列表" namespace="http://jw.nju.edu.cn/schema">
-			<xsl:apply-templates select="//课程">
-			</xsl:apply-templates>
-		</xsl:element>
-	</xsl:template>
+		<xsl:element name="tns:CourseScoreList">
+			<xsl:for-each select="//tns:CourseScoreList/tns:CourseScore">
+			<xsl:sort select="@CourseNo"></xsl:sort>
+			<xsl:sort select="@ScoreType"></xsl:sort>
+			<xsl:sort select="tns:Score/tns:Real成绩"></xsl:sort>
+			
+				<xsl:element name="tns:CourseScore">
+					<xsl:attribute name="CourseNo"> 
+					<xsl:value-of select="./@CourseNo" /> </xsl:attribute>
+					<xsl:attribute name="ScoreType">
+					 <xsl:value-of select="./@ScoreType" /> 
+						</xsl:attribute>
+					<xsl:element name="tns:成绩">
+						<xsl:for-each select="tns:成绩">
+							
 
-	<xsl:template match="课程">
-		<xsl:apply-templates select="课程成绩"></xsl:apply-templates>
-	</xsl:template>
+							<xsl:element name="tns:StudentNo">
+								<xsl:value-of select="tns:StudentNo"></xsl:value-of>
+							</xsl:element>
+							<xsl:element name="tns:Real成绩">
+								<xsl:value-of select="tns:Real成绩"></xsl:value-of>
+							</xsl:element>
 
-	<xsl:template match="课程成绩">
-		<xsl:element name="课程成绩">
-			<xsl:attribute name="课程编号">
-				<xsl:value-of select="../@课程编号" />
-			</xsl:attribute>
-			<xsl:attribute name="成绩性质">
-				<xsl:value-of select="./@成绩性质" />
-			</xsl:attribute>
-
-			<xsl:for-each select="成绩">
-				<xsl:sort select="得分"></xsl:sort>
-				<xsl:element name="成绩">
-					<xsl:element name="学号">
-						<xsl:value-of select="学号"></xsl:value-of>
-					</xsl:element>
-					<xsl:element name="得分">
-						<xsl:value-of select="得分"></xsl:value-of>
+						</xsl:for-each>
 					</xsl:element>
 				</xsl:element>
 			</xsl:for-each>
+
 		</xsl:element>
 	</xsl:template>
-
+	<!-- <xsl:template match="/"> <xsl:element name="CourseScoreList" namespace="http://jw.nju.edu.cn/schema"> 
+		<xsl:apply-templates select="//tns:CourseScore"> </xsl:apply-templates> </xsl:element> 
+		</xsl:template> <xsl:template match="tns:CourseScore"> <xsl:element name="CourseScore"> 
+		<xsl:attribute name="CourseNo"> <xsl:value-of select="@CourseNo" /> </xsl:attribute> 
+		<xsl:attribute name="ScoreType"> <xsl:value-of select="@ScoreType" /> </xsl:attribute> 
+		<xsl:for-each select="Score"> <xsl:sort select="tns:Real成绩"></xsl:sort> <xsl:element 
+		name="Score"> <xsl:element name="StudentNo"> <xsl:value-of select="StudentNo"></xsl:value-of> 
+		</xsl:element> <xsl:element name="tns:Real成绩"> <xsl:value-of select="RealScore"></xsl:value-of> 
+		</xsl:element> </xsl:element> </xsl:for-each> </xsl:element> </xsl:template> -->
 
 </xsl:stylesheet>
 
-<!-- <html> <body> <h2>My CD Collection</h2> <table border="1"> <tr bgcolor="#9acd32"> 
-	<th style="text-align:left">Title</th> <th style="text-align:left">Artist</th> 
-	</tr> <xsl:for-each select="catalog/cd"> <tr> <td> <xsl:value-of select="title" 
-	/> </td> <td> <xsl:value-of select="artist" /> </td> </tr> </xsl:for-each> 
-	</table> </body> </html> --> 

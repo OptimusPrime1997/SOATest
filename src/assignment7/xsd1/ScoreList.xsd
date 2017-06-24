@@ -8,7 +8,7 @@
 	<include schemaLocation="Student.xsd"></include>
 	<include schemaLocation="Course.xsd"></include>
 
-	<simpleType name="成绩性质类型">
+	<simpleType name="ScoreNatureType">
 		<restriction base="string">
 			<enumeration value="平时成绩"></enumeration>
 			<enumeration value="作业成绩"></enumeration>
@@ -18,34 +18,36 @@
 		</restriction>
 	</simpleType>
 
-	<complexType name="课程成绩列表类型">
+	<complexType name="CourseScoreListType">
 		<sequence minOccurs="0" maxOccurs="unbounded">
-			<element name="课程成绩" type="tns:课程成绩类型"></element>
+			<element name="CourseScore" type="tns:CourseScoreType"></element>
 		</sequence>
 	</complexType>
 
-	<complexType name="课程成绩类型">
+	<complexType name="CourseScoreType">
 		<sequence minOccurs="0" maxOccurs="unbounded">
-			<element name="成绩" type="tns:成绩类型">
+			<element name="Score" type="tns:ScoreType">
 			</element>
 		</sequence>
-		<attribute name="课程编号" type="tns:课程编号类型"></attribute>
-		<attribute name="成绩性质" type="tns:成绩性质类型"></attribute>
+		<attribute name="CourseNo" type="tns:CourseNoType"></attribute>
+		<attribute name="ScoreNature" type="tns:ScoreNatureType"></attribute>
 	</complexType>
 
-	<complexType name="成绩类型">
+	<complexType name="ScoreType">
 		<sequence>
-			<element name="学号" type="tns:学号类型"></element>
-			<element name="得分" type="tns:得分类型"></element>
+			<element name="StudentID" type="tns:StudentIDType"></element>
+			<element name="ScoreNum" type="tns:ScoreNumType"></element>
 		</sequence>
 	</complexType>
 
-	<simpleType name="得分类型">
+	<simpleType name="ScoreNumType">
 		<restriction base="int">
 			<minInclusive value="0"></minInclusive>
 			<maxInclusive value="100"></maxInclusive>
 		</restriction>
 	</simpleType>
 	
-	<element name="课程成绩列表" type="tns:课程成绩列表类型"></element>
+	<element name="CourseScoreList" type="tns:CourseScoreListType"></element>
+
+	<element name="ChangeScoreList" type="tns:CourseScoreListType"></element>
 </schema>

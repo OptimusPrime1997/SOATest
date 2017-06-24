@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://jw.nju.edu.cn/wsdl"
+	xmlns:wns="http://jw.nju.edu.cn/wsdl" xmlns:tns="http://jw.nju.edu.cn/schema"
+	xmlns:nju="http://www.nju.edu.cn/schema" xmlns:ft="http://jw.nju.edu.cn/FaultSchema"
+	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<wsdl:types>
+
+		<xs:schema targetNamespace="http://jw.nju.edu.cn/schema">
+			<xs:include schemaLocation="../xsd2/XML_1_2.xsd" />
+		</xs:schema>
+		<!-- <xs:schema targetNamespace="http://jw.nju.edu.cn/schema">
+			<xs:include schemaLocation="../xsd2/XML_1.xsd" />
+		</xs:schema> -->
+		<!-- <xs:schema targetNamespace="http://jw.nju.edu.cn/schema"> <xs:include 
+			schemaLocation="../xsd/StudentList.xsd" /> </xs:schema> -->
+		<xs:schema elementFormDefault="qualified"
+			targetNamespace="http://jw.nju.edu.cn/FaultSchema">
+			<xs:complexType name="ErrorType">
+				<xs:all>
+					<xs:element name="ErrorSource" type="xs:string" />
+					<xs:element name="ErrorDescription" type="xs:string" />
+				</xs:all>
+			</xs:complexType>
+
+			<xs:element name="targetNotFound" type="ft:ErrorType" />
+			<xs:element name="queryError" type="ft:ErrorType" />
+			<xs:element name="dataFormatError" type="ft:ErrorType" />
+			<xs:element name="invalidQuery" type="ft:ErrorType" />
+			<xs:element name="otherError" type="ft:ErrorType" />
+			<xs:element name="FakeReturn" type="xs:string"></xs:element>
+			<!-- <xs:element name="requestOrderResponse"> <xs:complexType> <xs:sequence> 
+				<xs:element ref="oms:Order"/> </xs:sequence> </xs:complexType> </xs:element> -->
+		</xs:schema>
+		<!-- <xs:import namespace="http://jw.nju.edu.cn/schema"></xs:import> -->
+	</wsdl:types>
+
+
+	<!--<wsdl:message name="request"> -->
+	<!--<wsdl:part name="parameters" element="req:requestOrder"/> -->
+	<!--</wsdl:message> -->
+	<wsdl:message name="stdNotFoundFault">
+		<wsdl:part name="parameters" element="ft:targetNotFound"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="inValidQueryFault">
+		<wsdl:part name="parameters" element="ft:invalidQuery"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="inValidDataFault">
+		<wsdl:part name="parameters" element="ft:dataFormatError"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="otherFault">
+		<wsdl:part name="parameters" element="ft:otherError"></wsdl:part>
+	</wsdl:message>
+
+	<wsdl:message name="fakeReturn">
+		<wsdl:part name="parameters" element="ft:FakeReturn"></wsdl:part>
+	</wsdl:message>
+
+	<wsdl:message name="student">
+		<wsdl:part name="parameters" element="tns:Student"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="studentList">
+		<wsdl:part name="parameters" element="tns:StudentList"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="studentNo">
+		<wsdl:part name="parameters" element="tns:StudentNo"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="courseScoreList">
+		<wsdl:part name="parameters" element="tns:CourseScoreList"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="modifyCourseScoreList">
+		<wsdl:part name="parameters" element="tns:ChangeScoreList"></wsdl:part>
+	</wsdl:message>
+
+
+	<wsdl:portType name="stdManageInterface">
+		<wsdl:operation name="addStd">
+			<wsdl:input message="wns:student" />
+			<wsdl:output message="wns:fakeReturn" />
+			<wsdl:fault name="addRequestFault" message="wns:inValidDataFault" />
+			<wsdl:fault name="addResponseFault" message="wns:otherFault" />
+		</wsdl:operation>
+		<wsdl:operation name="updateStd">
+			<wsdl:input message="wns:student" />
+			<wsdl:output message="wns:fakeReturn" />
+			<wsdl:fault name="updateRequestFault" message="wns:inValidDataFault" />
+			<wsdl:fault name="updateResponseFault" message="wns:otherFault" />
+		</wsdl:operation>
+		<wsdl:operation name="deleteStd">
+			<wsdl:input message="wns:studentNo" />
+			<wsdl:output message="wns:fakeReturn" />
+			<wsdl:fault name="deleteRequestFault" message="wns:inValidDataFault" />
+			<wsdl:fault name="deleteResponseFault" message="wns:otherFault" />
+			<wsdl:fault name="notFound" message="wns:stdNotFoundFault" />
+		</wsdl:operation>
+		<wsdl:operation name="queryStd">
+			<wsdl:input message="wns:studentNo" />
+			<wsdl:output message="wns:student" />
+			<wsdl:fault name="queryRequestFault" message="wns:inValidDataFault" />
+			<wsdl:fault name="queryResponseFault" message="wns:otherFault" />
+			<wsdl:fault name="notFound" message="wns:stdNotFoundFault" />
+		</wsdl:operation>
+		<wsdl:operation name="searchStdScore">
+			<wsdl:input message="wns:studentNo" />
+			<wsdl:output message="wns:courseScoreList" />
+			<wsdl:fault name="searchRequestFault" message="wns:inValidQueryFault" />
+			<wsdl:fault name="searchResponseFault" message="wns:inValidDataFault" />
+			<wsdl:fault name="otherException" message="wns:otherFault" />
+		</wsdl:operation>
+		<wsdl:operation name="updateStdScore">
+			<wsdl:input message="wns:modifyCourseScoreList" />
+			<wsdl:output message="wns:courseScoreList" />
+			<wsdl:fault name="updateRequestFault" message="wns:inValidQueryFault" />
+			<wsdl:fault name="updateResponseFault" message="wns:stdNotFoundFault" />
+			<wsdl:fault name="otherException" message="wns:otherFault" />
+		</wsdl:operation>
+
+
+	</wsdl:portType>
+
+	<!--! </example> -->
+	<wsdl:binding name="RequestOrderSOAPBinding" type="wns:stdManageInterface">
+		<soap:binding style="document"
+			transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="addStd">
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:fault name="addRequestFault">
+				<soap:fault name="addRequestFault" />
+			</wsdl:fault>
+			<wsdl:fault name="addResponseFault">
+				<soap:fault name="addResponseFault" />
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="updateStd">
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:fault name="updateRequestFault">
+				<soap:fault name="updateRequestFault" />
+			</wsdl:fault>
+			<wsdl:fault name="updateResponseFault">
+				<soap:fault name="updateResponseFault" />
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="deleteStd">
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:fault name="deleteRequestFault">
+				<soap:fault name="deleteRequestFault" />
+			</wsdl:fault>
+			<wsdl:fault name="deleteResponseFault">
+				<soap:fault name="deleteResponseFault" />
+			</wsdl:fault>
+			<wsdl:fault name="notFound">
+				<soap:fault name="notFound" />
+			</wsdl:fault>
+		</wsdl:operation>
+
+		<wsdl:operation name="queryStd">
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+			<wsdl:fault name="queryRequestFault">
+				<soap:fault name="queryRequestFault" />
+			</wsdl:fault>
+			<wsdl:fault name="queryResponseFault">
+				<soap:fault name="queryResponseFault" />
+			</wsdl:fault>
+			<wsdl:fault name="notFound">
+				<soap:fault name="notFound" />
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="searchStdScore">
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+			<wsdl:fault name="searchRequestFault">
+				<soap:fault name="searchRequestFault" />
+			</wsdl:fault>
+			<wsdl:fault name="searchResponseFault">
+				<soap:fault name="searchResponseFault" />
+			</wsdl:fault>
+			<wsdl:fault name="otherException">
+				<soap:fault name="otherException" />
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="updateStdScore">
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+			<wsdl:fault name="updateRequestFault">
+				<soap:fault name="updateRequestFault" />
+			</wsdl:fault>
+			<wsdl:fault name="updateResponseFault">
+				<soap:fault name="updateResponseFault" />
+			</wsdl:fault>
+			<wsdl:fault name="otherException">
+				<soap:fault name="otherException" />
+			</wsdl:fault>
+		</wsdl:operation>
+	</wsdl:binding>
+
+
+	<wsdl:service name="stdManageService">
+		<wsdl:port name="stdManageInterface" binding="wns:RequestOrderSOAPBinding">
+			<soap:address location="http://localhost:8080/ConnectionServlet" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

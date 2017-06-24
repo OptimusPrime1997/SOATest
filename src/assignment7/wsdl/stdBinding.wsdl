@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<description
+        xmlns="http://www.w3.org/ns/wsdl"
+        targetNamespace="http://jw.nju.edu.cn/wsdl"
+        xmlns:wns="http://jw.nju.edu.cn/wsdl"
+        xmlns:tns="http://jw.nju.edu.cn/schema"
+        xmlns:nju="http://www.nju.edu.cn/schema"
+        xmlns:wsdlx="http://www.w3.org/ns/wsdl-extensions"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:whttp="http://www.w3.org/ns/wsdl/http"
+        xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+        xmlns:wsoap="http://www.w3.org/ns/wsdl/soap"
+        xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+        xmlns:ft="http://jw.nju.edu.cn/FaultSchema">
+    <!--schema import-->
+    <import
+            namespace="http://jw.nju.edu.cn/schema"
+            location="./stdInterface.xsd"/>
+
+
+    <!--web service 使用的数据类型-->
+    <types>
+        <xs:import
+                namespace="http://jw.nju.edu.cn/schema"/>
+        <!--<schema xmlns="http://www.w3.org/2001/XMLSchema">
+              <import namespace="http://jw.nju.edu.cn/schema" schemaLocation="../xsd/ScoreList.xsd" />
+          </schema>-->
+    </types>
+
+
+    <!--web service 使用的通信协议-->
+    <binding name="stdManageBinding"
+             interface="wns:stdManageInterface"
+             type="http://www.w3.org/ns/wsdl/soap"
+             wsoap:version="1.2"
+             wsoap:protocol="http://www.w3.org/2003/05/soap/bindings/HTTP/">
+        <operation ref="wns:search"
+                   wsoap:mep="http://www.w3.org/2003/05/soap/mep/request-response"/>
+        <operation ref="wns:update"
+                   wsoap:mep="http://www.w3.org/2003/05/soap/mep/request-response"/>
+        <operation ref="wns:addStd"
+                   wsoap:mep="http://www.w3.org/2003/05/soap/mep/request-response"/>
+        <operation ref="wns:addStdList"
+                   wsoap:mep="http://www.w3.org/2003/05/soap/mep/request-response"/>
+        <operation ref="wns:queryStd"
+                   wsoap:mep="http://www.w3.org/2003/05/soap/mep/request-response"/>
+        <operation ref="wns:deleteStd"
+                   wsoap:mep="http://www.w3.org/2003/05/soap/mep/request-response"/>
+        <operation ref="wns:updateStd"
+                   wsoap:mep="http://www.w3.org/2003/05/soap/mep/request-response"/>
+
+
+        <fault ref="wns:inValidDataFault"
+               wsoap:code="soap:Sender"/>
+        <fault ref="wns:inValidQueryFault"
+               wsoap:code="soap:Sender"/>
+        <fault ref="wns:otherFault"
+               wsoap:code="soap:Sender"/>
+        <fault ref="wns:otherFault"
+               wsoap:code="soap:Sender"/>
+    </binding>
+</description>

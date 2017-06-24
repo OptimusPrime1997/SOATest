@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions targetNamespace="http://jw.nju.edu.cn/wsdl"
+	xmlns:tns="http://jw.nju.edu.cn/wsdl" xmlns:nju="http://www.nju.edu.cn/schema"
+	xmlns:jw="http://jw.nju.edu.cn/schema" xmlns:ft="http://jw.nju.edu.cn/FaultSchema"
+	xmlns:whttp="http://www.w3.org/ns/wsdl/http" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:wsdlx="http://www.w3.org/ns/wsdl-extensions" xmlns="http://schemas.xmlsoap.org/wsdl/"
+	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+	<types>
+		<xs:schema targetNamespace="http://jw.nju.edu.cn/schema">
+			<xs:include schemaLocation="../xsd/XML_1_2.xsd" />
+		</xs:schema>
+		<xs:schema targetNamespace="http://jw.nju.edu.cn/FaultSchema">
+			<xs:include schemaLocation="../xsd/Faults.xsd" />
+		</xs:schema>
+	</types>
+	<message name="studentNo">
+		<part name="parameters" element="jw:StudentNo" />
+	</message>
+	<message name="student">
+		<part name="parameters" element="jw:Student" />
+	</message>
+	<message name="notExistFault">
+		<part name="parameters" element="ft:notExistFault" />
+	</message>
+
+	<portType name="CertifyPort">
+		<documentation>
+			This operation returns a student,
+			if the student with the input id exists
+		</documentation>
+		<operation name="certifyStudent">
+			<input message="tns:studentNo" />
+			<output message="tns:student" />
+			<fault name="certifyNotExistFault" message="tns:notExistFault" />
+		</operation>
+	</portType>
+
+	<binding name="CertifyStudentHTTPBinding" type="tns:CertifyPort">
+		<soap:binding style="document"
+			transport="http://schemas.xmlsoap.org/soap/http" />
+		<operation name="certifyStudent">
+			<input>
+				<soap:body use="literal" />
+			</input>
+			<output>
+				<soap:body use="literal" />
+			</output>
+			<fault name="certifyNotExistFault">
+				<soap:fault name="certifyNotExistFault" />
+			</fault>
+		</operation>
+	</binding>
+
+	<service name="CertifyStudentService">
+		<port name="CertifyPort" binding="tns:CertifyStudentHTTPBinding">
+			<soap:address location="http://jw.nju.edu.cn/certify/" />
+		</port>
+	</service>
+</definitions>

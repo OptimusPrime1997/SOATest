@@ -66,17 +66,17 @@ public class DOMTester3 {
 			e1.printStackTrace();
 		}
 		// 构造数据
-		Student[] list = new Student[11];
-		list[0] = new Student("141250206", "周锐", "男", "1996-01-01", "311302199601015327", "18260039583");
-		list[1] = new Student("141250160", "徐江成", "男", "1996-02-02", "311302199602025327", "18260039584");
-		list[2] = new Student("141250050", "花蕾", "女", "1996-03-03", "311302199603035327", "18260039582");
-		list[3] = new Student("141250076", "李佳俊", "男", "1996-08-08", "311302199608085327", "18260039589");
-		list[4] = new Student("141250068", "梁家诚", "男", "1996-11-02", "311302199611025327", "18260039585");
-		list[5] = new Student("141250085", "罗金宏", "男", "1997-02-19", "311302199702195327", "18260032917");
-		list[6] = new Student("141250167", "杨华安", "男", "1996-04-04", "311302199604045327", "13270807992");
-		list[7] = new Student("141250036", "傅林华", "男", "1996-05-05", "311302199605055327", "18260039586");
-		list[8] = new Student("141250021", "崔忠诚", "男", "1996-06-06", "311302199606065327", "18260039587");
-		list[9] = new Student("141250075", "刘德宽", "男", "1996-07-07", "311302199607075327", "18260039588");
+		Stu[] list = new Stu[11];
+		list[0] = new Stu("141250206", "周锐", "男", "1996-01-01", "311302199601015327", "18260039583");
+		list[1] = new Stu("141250160", "徐江成", "男", "1996-02-02", "311302199602025327", "18260039584");
+		list[2] = new Stu("141250050", "花蕾", "女", "1996-03-03", "311302199603035327", "18260039582");
+		list[3] = new Stu("141250076", "李佳俊", "男", "1996-08-08", "311302199608085327", "18260039589");
+		list[4] = new Stu("141250068", "梁家诚", "男", "1996-11-02", "311302199611025327", "18260039585");
+		list[5] = new Stu("141250085", "罗金宏", "男", "1997-02-19", "311302199702195327", "18260032917");
+		list[6] = new Stu("141250167", "杨华安", "男", "1996-04-04", "311302199604045327", "13270807992");
+		list[7] = new Stu("141250036", "傅林华", "男", "1996-05-05", "311302199605055327", "18260039586");
+		list[8] = new Stu("141250021", "崔忠诚", "男", "1996-06-06", "311302199606065327", "18260039587");
+		list[9] = new Stu("141250075", "刘德宽", "男", "1996-07-07", "311302199607075327", "18260039588");
 		if(sourceValid==true){
 			list[10] = DOMReader.readXMLFile(sourcePath).get(0);
 		}else{
@@ -104,7 +104,7 @@ public class DOMTester3 {
 				Map<String, String> map = getMap(sourceMap, list[i]);
 				Element student = generateElement(document, map);
 				Element courseList;
-				if (i == list.length - 1) {
+				if (i != list.length - 1) {
 					courseList = getCourseList(document, map);
 				} else {
 					courseList = getMyCourseList(document, map, list[list.length-1]);
@@ -160,7 +160,7 @@ public class DOMTester3 {
 	 * @param student
 	 * @return
 	 */
-	public static Map<String, String> getMap(Map<String, String> map, Student student) {
+	public static Map<String, String> getMap(Map<String, String> map, Stu student) {
 		map.put("学号", student.getStudentNo());//
 		map.put("姓名", student.getName());//
 		map.put("性别", student.getSex());//
@@ -242,7 +242,7 @@ public class DOMTester3 {
 		return student;
 	}
 
-	public static Element getMyCourseList(Document document, Map<String, String> map, Student student) {
+	public static Element getMyCourseList(Document document, Map<String, String> map, Stu student) {
 		Element courseList = document.createElement("课程成绩列表");
 		// courseList.setAttribute("xmlns", "http://jw.nju.edu.cn/schema");
 		List<CourseScore> csList = student.getScoreList();

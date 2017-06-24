@@ -10,7 +10,7 @@
 
 
 
-	<simpleType name="成绩性质类型">
+	<simpleType name="ScoreAttrType">
 		<restriction base="string">
 			<enumeration value="平时成绩"></enumeration>
 			<enumeration value="作业成绩"></enumeration>
@@ -20,38 +20,37 @@
 		</restriction>
 	</simpleType>
 
-	<complexType name="课程成绩列表类型">
+	<complexType name="CourseScoreListType">
 		<sequence minOccurs="0" maxOccurs="unbounded">
-			<element name="课程成绩" type="tns:课程成绩类型"></element>
+			<element name="CourseScore" type="tns:CourseScoreType"></element>
+		</sequence>
+	</complexType>
+
+	<complexType name="ScoreType">
+		<sequence>
+			<element name="StudentNo" type="tns:StudentNoType"></element>
+			<element name="RealScore" type="tns:RealScoreType"></element>
 		</sequence>
 	</complexType>
 
 
-
-
-	<complexType name="课程成绩类型">
+	<complexType name="CourseScoreType">
 		<sequence minOccurs="0" maxOccurs="unbounded">
-			<element name="成绩" type="tns:成绩类型">
-
+			<element name="Score" type="tns:ScoreType">
 			</element>
 		</sequence>
-		<attribute name="课程编号" type="tns:课程编号类型"></attribute>
-		<attribute name="成绩性质" type="tns:成绩性质类型"></attribute>
+		<attribute name="CourseNo" type="tns:CourseNoType"></attribute>
+		<attribute name="ScoreAttr" type="tns:ScoreAttrType"></attribute>
 	</complexType>
 
-	<complexType name="成绩类型">
-		<sequence>
-			<element name="学号" type="tns:学号类型"></element>
-			<element name="得分" type="tns:得分类型"></element>
-		</sequence>
-	</complexType>
 
-	<simpleType name="得分类型">
+
+	<simpleType name="RealScoreType">
 		<restriction base="int">
 			<minInclusive value="0"></minInclusive>
 			<maxInclusive value="100"></maxInclusive>
 		</restriction>
 	</simpleType>
-	
-	<element name="课程成绩列表" type="tns:课程成绩列表类型"></element>
+
+	<element name="CourseScoreList" type="tns:CourseScoreListType"></element>
 </schema>

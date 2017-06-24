@@ -28,7 +28,7 @@ public class SAXStarter {
 		}
 		if (isValid == false) {
 			System.out.println(sourceXML+" is not validated");
-			return;
+//			return;
 		}
 
 		SAXParserFactory factory = SAXParserFactory.newInstance();

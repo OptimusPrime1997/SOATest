@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<StudentList xmlns="http://jw.nju.edu.cn/schema">
+	<Student StudentNo="141250206">
+		<Grade>大三</Grade>
+		<IndividualBaseInfo xmlns="http://www.nju.edu.cn/schema">
+			<Name>周锐</Name>
+			<Sex>男</Sex>
+			<Birth>1996-01-01</Birth>
+			<Id>311302199601015327</Id>
+			<EducationBackground>本科</EducationBackground>
+			<MaritalStatus>未婚</MaritalStatus>
+			<PhoneNum>18260039583</PhoneNum>
+			<Address>江苏省南京市鼓楼区汉口路22号</Address>
+			<Department DepartmentName="软件学院" DepartmentAttribute="院" DepartmentNo="125109">
+				<DepartmentManager>陈琳</DepartmentManager>
+				<DepartmentDescribe>以培养卓越且杰出的高素质软件工程师为目标</DepartmentDescribe>
+			</Department>
+		</IndividualBaseInfo>
+		<CourseScoreList>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250206</StudentNo>
+					<RealScore>79</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250206</StudentNo>
+					<RealScore>56</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250206</StudentNo>
+					<RealScore>60</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250206</StudentNo>
+					<RealScore>60</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250206</StudentNo>
+					<RealScore>74</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250206</StudentNo>
+					<RealScore>71</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250206</StudentNo>
+					<RealScore>74</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250206</StudentNo>
+					<RealScore>40</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250206</StudentNo>
+					<RealScore>46</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250206</StudentNo>
+					<RealScore>67</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250206</StudentNo>
+					<RealScore>42</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250206</StudentNo>
+					<RealScore>47</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250206</StudentNo>
+					<RealScore>41</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250206</StudentNo>
+					<RealScore>68</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250206</StudentNo>
+					<RealScore>62</RealScore>
+				</Score>
+			</CourseScore>
+		</CourseScoreList>
+	</Student>
+	<Student StudentNo="141250160">
+		<Grade>大三</Grade>
+		<IndividualBaseInfo xmlns="http://www.nju.edu.cn/schema">
+			<Name>徐江成</Name>
+			<Sex>男</Sex>
+			<Birth>1996-02-02</Birth>
+			<Id>311302199602025327</Id>
+			<EducationBackground>本科</EducationBackground>
+			<MaritalStatus>未婚</MaritalStatus>
+			<PhoneNum>18260039584</PhoneNum>
+			<Address>江苏省南京市鼓楼区汉口路22号</Address>
+			<Department DepartmentName="软件学院" DepartmentAttribute="院" DepartmentNo="125109">
+				<DepartmentManager>陈琳</DepartmentManager>
+				<DepartmentDescribe>以培养卓越且杰出的高素质软件工程师为目标</DepartmentDescribe>
+			</Department>
+		</IndividualBaseInfo>
+		<CourseScoreList>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250160</StudentNo>
+					<RealScore>66</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250160</StudentNo>
+					<RealScore>51</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250160</StudentNo>
+					<RealScore>54</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250160</StudentNo>
+					<RealScore>79</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250160</StudentNo>
+					<RealScore>41</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250160</StudentNo>
+					<RealScore>48</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250160</StudentNo>
+					<RealScore>79</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250160</StudentNo>
+					<RealScore>60</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250160</StudentNo>
+					<RealScore>63</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250160</StudentNo>
+					<RealScore>68</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250160</StudentNo>
+					<RealScore>72</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250160</StudentNo>
+					<RealScore>71</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250160</StudentNo>
+					<RealScore>73</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250160</StudentNo>
+					<RealScore>70</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250160</StudentNo>
+					<RealScore>70</RealScore>
+				</Score>
+			</CourseScore>
+		</CourseScoreList>
+	</Student>
+	<Student StudentNo="141250050">
+		<Grade>大三</Grade>
+		<IndividualBaseInfo xmlns="http://www.nju.edu.cn/schema">
+			<Name>花蕾</Name>
+			<Sex>女</Sex>
+			<Birth>1996-03-03</Birth>
+			<Id>311302199603035327</Id>
+			<EducationBackground>本科</EducationBackground>
+			<MaritalStatus>未婚</MaritalStatus>
+			<PhoneNum>18260039582</PhoneNum>
+			<Address>江苏省南京市鼓楼区汉口路22号</Address>
+			<Department DepartmentName="软件学院" DepartmentAttribute="院" DepartmentNo="125109">
+				<DepartmentManager>陈琳</DepartmentManager>
+				<DepartmentDescribe>以培养卓越且杰出的高素质软件工程师为目标</DepartmentDescribe>
+			</Department>
+		</IndividualBaseInfo>
+		<CourseScoreList>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250050</StudentNo>
+					<RealScore>62</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250050</StudentNo>
+					<RealScore>53</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250050</StudentNo>
+					<RealScore>54</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250050</StudentNo>
+					<RealScore>41</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250050</StudentNo>
+					<RealScore>56</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250050</StudentNo>
+					<RealScore>53</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250050</StudentNo>
+					<RealScore>67</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250050</StudentNo>
+					<RealScore>63</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250050</StudentNo>
+					<RealScore>63</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250050</StudentNo>
+					<RealScore>69</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250050</StudentNo>
+					<RealScore>48</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250050</StudentNo>
+					<RealScore>52</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250050</StudentNo>
+					<RealScore>73</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250050</StudentNo>
+					<RealScore>51</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250050</StudentNo>
+					<RealScore>55</RealScore>
+				</Score>
+			</CourseScore>
+		</CourseScoreList>
+	</Student>
+	<Student StudentNo="141250076">
+		<Grade>大三</Grade>
+		<IndividualBaseInfo xmlns="http://www.nju.edu.cn/schema">
+			<Name>李佳俊</Name>
+			<Sex>男</Sex>
+			<Birth>1996-08-08</Birth>
+			<Id>311302199608085327</Id>
+			<EducationBackground>本科</EducationBackground>
+			<MaritalStatus>未婚</MaritalStatus>
+			<PhoneNum>18260039589</PhoneNum>
+			<Address>江苏省南京市鼓楼区汉口路22号</Address>
+			<Department DepartmentName="软件学院" DepartmentAttribute="院" DepartmentNo="125109">
+				<DepartmentManager>陈琳</DepartmentManager>
+				<DepartmentDescribe>以培养卓越且杰出的高素质软件工程师为目标</DepartmentDescribe>
+			</Department>
+		</IndividualBaseInfo>
+		<CourseScoreList>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250076</StudentNo>
+					<RealScore>59</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250076</StudentNo>
+					<RealScore>45</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250076</StudentNo>
+					<RealScore>47</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250076</StudentNo>
+					<RealScore>66</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250076</StudentNo>
+					<RealScore>57</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250076</StudentNo>
+					<RealScore>58</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250076</StudentNo>
+					<RealScore>74</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250076</StudentNo>
+					<RealScore>70</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250076</StudentNo>
+					<RealScore>70</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250076</StudentNo>
+					<RealScore>74</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250076</StudentNo>
+					<RealScore>48</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250076</StudentNo>
+					<RealScore>53</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250076</StudentNo>
+					<RealScore>61</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250076</StudentNo>
+					<RealScore>53</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250076</StudentNo>
+					<RealScore>54</RealScore>
+				</Score>
+			</CourseScore>
+		</CourseScoreList>
+	</Student>
+	<Student StudentNo="141250068">
+		<Grade>大三</Grade>
+		<IndividualBaseInfo xmlns="http://www.nju.edu.cn/schema">
+			<Name>梁家诚</Name>
+			<Sex>男</Sex>
+			<Birth>1996-11-02</Birth>
+			<Id>311302199611025327</Id>
+			<EducationBackground>本科</EducationBackground>
+			<MaritalStatus>未婚</MaritalStatus>
+			<PhoneNum>18260039585</PhoneNum>
+			<Address>江苏省南京市鼓楼区汉口路22号</Address>
+			<Department DepartmentName="软件学院" DepartmentAttribute="院" DepartmentNo="125109">
+				<DepartmentManager>陈琳</DepartmentManager>
+				<DepartmentDescribe>以培养卓越且杰出的高素质软件工程师为目标</DepartmentDescribe>
+			</Department>
+		</IndividualBaseInfo>
+		<CourseScoreList>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250068</StudentNo>
+					<RealScore>42</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250068</StudentNo>
+					<RealScore>75</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250068</StudentNo>
+					<RealScore>68</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250068</StudentNo>
+					<RealScore>50</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250068</StudentNo>
+					<RealScore>73</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250068</StudentNo>
+					<RealScore>68</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250068</StudentNo>
+					<RealScore>74</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250068</StudentNo>
+					<RealScore>58</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250068</StudentNo>
+					<RealScore>61</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250068</StudentNo>
+					<RealScore>53</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250068</StudentNo>
+					<RealScore>47</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250068</StudentNo>
+					<RealScore>48</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250068</StudentNo>
+					<RealScore>64</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250068</StudentNo>
+					<RealScore>58</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250068</StudentNo>
+					<RealScore>59</RealScore>
+				</Score>
+			</CourseScore>
+		</CourseScoreList>
+	</Student>
+	<Student StudentNo="141250085">
+		<Grade>大三</Grade>
+		<IndividualBaseInfo xmlns="http://www.nju.edu.cn/schema">
+			<Name>罗金宏</Name>
+			<Sex>男</Sex>
+			<Birth>1997-02-19</Birth>
+			<Id>311302199702195327</Id>
+			<EducationBackground>本科</EducationBackground>
+			<MaritalStatus>未婚</MaritalStatus>
+			<PhoneNum>18260032917</PhoneNum>
+			<Address>江苏省南京市鼓楼区汉口路22号</Address>
+			<Department DepartmentName="软件学院" DepartmentAttribute="院" DepartmentNo="125109">
+				<DepartmentManager>陈琳</DepartmentManager>
+				<DepartmentDescribe>以培养卓越且杰出的高素质软件工程师为目标</DepartmentDescribe>
+			</Department>
+		</IndividualBaseInfo>
+		<CourseScoreList>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250085</StudentNo>
+					<RealScore>64</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250085</StudentNo>
+					<RealScore>68</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250085</StudentNo>
+					<RealScore>67</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250085</StudentNo>
+					<RealScore>70</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250085</StudentNo>
+					<RealScore>71</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250085</StudentNo>
+					<RealScore>70</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250085</StudentNo>
+					<RealScore>65</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250085</StudentNo>
+					<RealScore>67</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250085</StudentNo>
+					<RealScore>66</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250085</StudentNo>
+					<RealScore>71</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250085</StudentNo>
+					<RealScore>63</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250085</StudentNo>
+					<RealScore>64</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250085</StudentNo>
+					<RealScore>61</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250085</StudentNo>
+					<RealScore>64</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250085</StudentNo>
+					<RealScore>63</RealScore>
+				</Score>
+			</CourseScore>
+		</CourseScoreList>
+	</Student>
+	<Student StudentNo="141250167">
+		<Grade>大三</Grade>
+		<IndividualBaseInfo xmlns="http://www.nju.edu.cn/schema">
+			<Name>杨华安</Name>
+			<Sex>男</Sex>
+			<Birth>1996-04-04</Birth>
+			<Id>311302199604045327</Id>
+			<EducationBackground>本科</EducationBackground>
+			<MaritalStatus>未婚</MaritalStatus>
+			<PhoneNum>13270807992</PhoneNum>
+			<Address>江苏省南京市鼓楼区汉口路22号</Address>
+			<Department DepartmentName="软件学院" DepartmentAttribute="院" DepartmentNo="125109">
+				<DepartmentManager>陈琳</DepartmentManager>
+				<DepartmentDescribe>以培养卓越且杰出的高素质软件工程师为目标</DepartmentDescribe>
+			</Department>
+		</IndividualBaseInfo>
+		<CourseScoreList>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250167</StudentNo>
+					<RealScore>62</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250167</StudentNo>
+					<RealScore>67</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250167</StudentNo>
+					<RealScore>66</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250167</StudentNo>
+					<RealScore>76</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250167</StudentNo>
+					<RealScore>47</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250167</StudentNo>
+					<RealScore>52</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250167</StudentNo>
+					<RealScore>50</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250167</StudentNo>
+					<RealScore>79</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250167</StudentNo>
+					<RealScore>73</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250167</StudentNo>
+					<RealScore>49</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250167</StudentNo>
+					<RealScore>54</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250167</StudentNo>
+					<RealScore>53</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250167</StudentNo>
+					<RealScore>47</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250167</StudentNo>
+					<RealScore>70</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250167</StudentNo>
+					<RealScore>65</RealScore>
+				</Score>
+			</CourseScore>
+		</CourseScoreList>
+	</Student>
+	<Student StudentNo="141250036">
+		<Grade>大三</Grade>
+		<IndividualBaseInfo xmlns="http://www.nju.edu.cn/schema">
+			<Name>傅林华</Name>
+			<Sex>男</Sex>
+			<Birth>1996-05-05</Birth>
+			<Id>311302199605055327</Id>
+			<EducationBackground>本科</EducationBackground>
+			<MaritalStatus>未婚</MaritalStatus>
+			<PhoneNum>18260039586</PhoneNum>
+			<Address>江苏省南京市鼓楼区汉口路22号</Address>
+			<Department DepartmentName="软件学院" DepartmentAttribute="院" DepartmentNo="125109">
+				<DepartmentManager>陈琳</DepartmentManager>
+				<DepartmentDescribe>以培养卓越且杰出的高素质软件工程师为目标</DepartmentDescribe>
+			</Department>
+		</IndividualBaseInfo>
+		<CourseScoreList>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250036</StudentNo>
+					<RealScore>57</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250036</StudentNo>
+					<RealScore>51</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250036</StudentNo>
+					<RealScore>52</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250036</StudentNo>
+					<RealScore>58</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250036</StudentNo>
+					<RealScore>58</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250036</StudentNo>
+					<RealScore>58</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250036</StudentNo>
+					<RealScore>44</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250036</StudentNo>
+					<RealScore>49</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250036</StudentNo>
+					<RealScore>48</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250036</StudentNo>
+					<RealScore>52</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250036</StudentNo>
+					<RealScore>75</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250036</StudentNo>
+					<RealScore>70</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250036</StudentNo>
+					<RealScore>49</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250036</StudentNo>
+					<RealScore>63</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250036</StudentNo>
+					<RealScore>60</RealScore>
+				</Score>
+			</CourseScore>
+		</CourseScoreList>
+	</Student>
+	<Student StudentNo="141250021">
+		<Grade>大三</Grade>
+		<IndividualBaseInfo xmlns="http://www.nju.edu.cn/schema">
+			<Name>崔忠诚</Name>
+			<Sex>男</Sex>
+			<Birth>1996-06-06</Birth>
+			<Id>311302199606065327</Id>
+			<EducationBackground>本科</EducationBackground>
+			<MaritalStatus>未婚</MaritalStatus>
+			<PhoneNum>18260039587</PhoneNum>
+			<Address>江苏省南京市鼓楼区汉口路22号</Address>
+			<Department DepartmentName="软件学院" DepartmentAttribute="院" DepartmentNo="125109">
+				<DepartmentManager>陈琳</DepartmentManager>
+				<DepartmentDescribe>以培养卓越且杰出的高素质软件工程师为目标</DepartmentDescribe>
+			</Department>
+		</IndividualBaseInfo>
+		<CourseScoreList>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250021</StudentNo>
+					<RealScore>72</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250021</StudentNo>
+					<RealScore>51</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250021</StudentNo>
+					<RealScore>55</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250021</StudentNo>
+					<RealScore>40</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250021</StudentNo>
+					<RealScore>46</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250021</StudentNo>
+					<RealScore>44</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250021</StudentNo>
+					<RealScore>43</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250021</StudentNo>
+					<RealScore>63</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250021</StudentNo>
+					<RealScore>59</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250021</StudentNo>
+					<RealScore>65</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250021</StudentNo>
+					<RealScore>51</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250021</StudentNo>
+					<RealScore>53</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250021</StudentNo>
+					<RealScore>66</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250021</StudentNo>
+					<RealScore>75</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250021</StudentNo>
+					<RealScore>73</RealScore>
+				</Score>
+			</CourseScore>
+		</CourseScoreList>
+	</Student>
+	<Student StudentNo="141250075">
+		<Grade>大三</Grade>
+		<IndividualBaseInfo xmlns="http://www.nju.edu.cn/schema">
+			<Name>刘德宽</Name>
+			<Sex>男</Sex>
+			<Birth>1996-07-07</Birth>
+			<Id>311302199607075327</Id>
+			<EducationBackground>本科</EducationBackground>
+			<MaritalStatus>未婚</MaritalStatus>
+			<PhoneNum>18260039588</PhoneNum>
+			<Address>江苏省南京市鼓楼区汉口路22号</Address>
+			<Department DepartmentName="软件学院" DepartmentAttribute="院" DepartmentNo="125109">
+				<DepartmentManager>陈琳</DepartmentManager>
+				<DepartmentDescribe>以培养卓越且杰出的高素质软件工程师为目标</DepartmentDescribe>
+			</Department>
+		</IndividualBaseInfo>
+		<CourseScoreList>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250075</StudentNo>
+					<RealScore>72</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250075</StudentNo>
+					<RealScore>73</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250075</StudentNo>
+					<RealScore>72</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250075</StudentNo>
+					<RealScore>58</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250075</StudentNo>
+					<RealScore>71</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250075</StudentNo>
+					<RealScore>68</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250075</StudentNo>
+					<RealScore>73</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250075</StudentNo>
+					<RealScore>60</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250075</StudentNo>
+					<RealScore>62</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250075</StudentNo>
+					<RealScore>68</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250075</StudentNo>
+					<RealScore>67</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250075</StudentNo>
+					<RealScore>67</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250075</StudentNo>
+					<RealScore>76</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250075</StudentNo>
+					<RealScore>51</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250075</StudentNo>
+					<RealScore>56</RealScore>
+				</Score>
+			</CourseScore>
+		</CourseScoreList>
+	</Student>
+	<Student StudentNo="141250027">
+		<Grade>大三</Grade>
+		<IndividualBaseInfo xmlns="http://www.nju.edu.cn/schema">
+			<Name>邸思诺</Name>
+			<Sex>女</Sex>
+			<Birth>1996-04-01</Birth>
+			<Id>311302199604015327</Id>
+			<EducationBackground>本科</EducationBackground>
+			<MaritalStatus>未婚</MaritalStatus>
+			<PhoneNum>13912993960</PhoneNum>
+			<Address>江苏省南京市鼓楼区汉口路22号</Address>
+			<Department DepartmentName="软件学院" DepartmentAttribute="院" DepartmentNo="125109">
+				<DepartmentManager>陈琳</DepartmentManager>
+				<DepartmentDescribe>以培养卓越且杰出的高素质软件工程师为目标</DepartmentDescribe>
+			</Department>
+		</IndividualBaseInfo>
+		<CourseScoreList>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250027</StudentNo>
+					<RealScore>61</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250027</StudentNo>
+					<RealScore>50</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000100">
+				<Score>
+					<StudentNo>141250027</StudentNo>
+					<RealScore>52</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250027</StudentNo>
+					<RealScore>44</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250027</StudentNo>
+					<RealScore>56</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000101">
+				<Score>
+					<StudentNo>141250027</StudentNo>
+					<RealScore>53</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250027</StudentNo>
+					<RealScore>61</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250027</StudentNo>
+					<RealScore>70</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000102">
+				<Score>
+					<StudentNo>141250027</StudentNo>
+					<RealScore>68</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250027</StudentNo>
+					<RealScore>64</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250027</StudentNo>
+					<RealScore>43</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000103">
+				<Score>
+					<StudentNo>141250027</StudentNo>
+					<RealScore>47</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="平时成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250027</StudentNo>
+					<RealScore>64</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="期末成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250027</StudentNo>
+					<RealScore>48</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore ScoreType="总评成绩" CourseNo="25000104">
+				<Score>
+					<StudentNo>141250027</StudentNo>
+					<RealScore>51</RealScore>
+				</Score>
+			</CourseScore>
+		</CourseScoreList>
+	</Student>
+</StudentList>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://jw.nju.edu.cn/FaultSchema"
+	xmlns:tns="http://jw.nju.edu.cn/FaultSchema" elementFormDefault="qualified">
+
+	<complexType name="faultType">
+		<attribute name="code" type="string"></attribute>
+		<attribute name="descrip" type="string"></attribute>
+	</complexType>
+
+	<element name="notExistFault" type="tns:faultType"></element>
+	<element name="alreadyExistFault" type="tns:faultType"></element>
+
+
+</schema>

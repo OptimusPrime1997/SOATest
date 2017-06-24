@@ -1,0 +1,55 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>SOATest</display-name>
+	<welcome-file-list>
+		<welcome-file>search.jsp</welcome-file>
+	</welcome-file-list>
+	
+	<servlet>
+		<servlet-name>ScoreClientServlet</servlet-name>
+		<servlet-class>servlet.ScoreClientServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ScoreClientServlet</servlet-name>
+		<url-pattern>/ScoreClientServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ScoreServerServlet</servlet-name>
+		<servlet-class>servlet.ScoreServerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ScoreServerServlet</servlet-name>
+		<url-pattern>/ScoreServerServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ScoreUpdateClientServlet</servlet-name>
+		<servlet-class>servlet.ScoreUpdateClientServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ScoreUpdateClientServlet</servlet-name>
+		<url-pattern>/ScoreUpdateClientServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ScoreUpdateServerServlet</servlet-name>
+		<servlet-class>servlet.ScoreUpdateServerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ScoreUpdateServerServlet</servlet-name>
+		<url-pattern>/ScoreUpdateServerServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>StudentScoreServlet</servlet-name>
+		<servlet-class>servlet.StudentScoreServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>StudentScoreServlet</servlet-name>
+		<url-pattern>/StudentScoreServlet</url-pattern>
+	</servlet-mapping>
+</web-app> -->

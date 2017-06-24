@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CourseScoreList xmlns="http://jw.nju.edu.cn/schema">
+    <CourseScore ScoreType="平时成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250085</StudentNo>
+            <RealScore>46</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250075</StudentNo>
+            <RealScore>54</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250021</StudentNo>
+            <RealScore>61</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250027</StudentNo>
+            <RealScore>61</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250206</StudentNo>
+            <RealScore>64</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250076</StudentNo>
+            <RealScore>64</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250068</StudentNo>
+            <RealScore>66</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250050</StudentNo>
+            <RealScore>73</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250167</StudentNo>
+            <RealScore>73</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250036</StudentNo>
+            <RealScore>73</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250160</StudentNo>
+            <RealScore>78</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250075</StudentNo>
+            <RealScore>44</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250160</StudentNo>
+            <RealScore>47</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250076</StudentNo>
+            <RealScore>47</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250068</StudentNo>
+            <RealScore>48</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250167</StudentNo>
+            <RealScore>50</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250027</StudentNo>
+            <RealScore>52</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250085</StudentNo>
+            <RealScore>57</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250050</StudentNo>
+            <RealScore>58</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250036</StudentNo>
+            <RealScore>58</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250206</StudentNo>
+            <RealScore>60</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250021</StudentNo>
+            <RealScore>60</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250160</StudentNo>
+            <RealScore>40</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250075</StudentNo>
+            <RealScore>42</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250076</StudentNo>
+            <RealScore>43</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250068</StudentNo>
+            <RealScore>44</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250167</StudentNo>
+            <RealScore>45</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250027</StudentNo>
+            <RealScore>50</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250050</StudentNo>
+            <RealScore>55</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250036</StudentNo>
+            <RealScore>55</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250206</StudentNo>
+            <RealScore>59</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250085</StudentNo>
+            <RealScore>60</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000100">
+        <Score>
+            <StudentNo>141250021</StudentNo>
+            <RealScore>60</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250021</StudentNo>
+            <RealScore>44</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250075</StudentNo>
+            <RealScore>44</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250027</StudentNo>
+            <RealScore>44</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250160</StudentNo>
+            <RealScore>45</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250050</StudentNo>
+            <RealScore>49</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250167</StudentNo>
+            <RealScore>51</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250036</StudentNo>
+            <RealScore>54</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250076</StudentNo>
+            <RealScore>56</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250068</StudentNo>
+            <RealScore>70</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250206</StudentNo>
+            <RealScore>73</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250085</StudentNo>
+            <RealScore>73</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250021</StudentNo>
+            <RealScore>42</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250167</StudentNo>
+            <RealScore>43</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250160</StudentNo>
+            <RealScore>49</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250085</StudentNo>
+            <RealScore>50</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250068</StudentNo>
+            <RealScore>53</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250027</StudentNo>
+            <RealScore>53</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250075</StudentNo>
+            <RealScore>55</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250076</StudentNo>
+            <RealScore>60</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250036</StudentNo>
+            <RealScore>65</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250206</StudentNo>
+            <RealScore>70</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250050</StudentNo>
+            <RealScore>71</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250167</StudentNo>
+            <RealScore>41</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250021</StudentNo>
+            <RealScore>42</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250085</StudentNo>
+            <RealScore>45</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250068</StudentNo>
+            <RealScore>49</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250160</StudentNo>
+            <RealScore>51</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250027</StudentNo>
+            <RealScore>56</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250075</StudentNo>
+            <RealScore>58</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250076</StudentNo>
+            <RealScore>62</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250036</StudentNo>
+            <RealScore>68</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250206</StudentNo>
+            <RealScore>70</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000101">
+        <Score>
+            <StudentNo>141250050</StudentNo>
+            <RealScore>77</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250075</StudentNo>
+            <RealScore>42</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250076</StudentNo>
+            <RealScore>44</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250036</StudentNo>
+            <RealScore>48</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250050</StudentNo>
+            <RealScore>50</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250068</StudentNo>
+            <RealScore>51</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250167</StudentNo>
+            <RealScore>51</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250085</StudentNo>
+            <RealScore>57</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250027</StudentNo>
+            <RealScore>61</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250021</StudentNo>
+            <RealScore>64</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250160</StudentNo>
+            <RealScore>70</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250206</StudentNo>
+            <RealScore>76</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250076</StudentNo>
+            <RealScore>41</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250036</StudentNo>
+            <RealScore>42</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250167</StudentNo>
+            <RealScore>43</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250050</StudentNo>
+            <RealScore>46</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250021</StudentNo>
+            <RealScore>46</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250068</StudentNo>
+            <RealScore>51</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250075</StudentNo>
+            <RealScore>54</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250206</StudentNo>
+            <RealScore>62</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250027</StudentNo>
+            <RealScore>68</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250085</StudentNo>
+            <RealScore>69</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250160</StudentNo>
+            <RealScore>73</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250076</StudentNo>
+            <RealScore>41</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250167</StudentNo>
+            <RealScore>41</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250036</StudentNo>
+            <RealScore>41</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250021</StudentNo>
+            <RealScore>42</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250050</StudentNo>
+            <RealScore>46</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250068</StudentNo>
+            <RealScore>51</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250075</StudentNo>
+            <RealScore>58</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250206</StudentNo>
+            <RealScore>59</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250027</StudentNo>
+            <RealScore>70</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250085</StudentNo>
+            <RealScore>73</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000102">
+        <Score>
+            <StudentNo>141250160</StudentNo>
+            <RealScore>74</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250085</StudentNo>
+            <RealScore>47</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250050</StudentNo>
+            <RealScore>49</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250076</StudentNo>
+            <RealScore>52</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250027</StudentNo>
+            <RealScore>64</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250075</StudentNo>
+            <RealScore>65</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250068</StudentNo>
+            <RealScore>67</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250021</StudentNo>
+            <RealScore>68</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250206</StudentNo>
+            <RealScore>71</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250160</StudentNo>
+            <RealScore>72</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250167</StudentNo>
+            <RealScore>73</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250036</StudentNo>
+            <RealScore>74</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250027</StudentNo>
+            <RealScore>47</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250050</StudentNo>
+            <RealScore>49</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250206</StudentNo>
+            <RealScore>51</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250167</StudentNo>
+            <RealScore>52</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250085</StudentNo>
+            <RealScore>58</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250160</StudentNo>
+            <RealScore>61</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250068</StudentNo>
+            <RealScore>63</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250036</StudentNo>
+            <RealScore>65</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250075</StudentNo>
+            <RealScore>69</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250021</StudentNo>
+            <RealScore>70</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250076</StudentNo>
+            <RealScore>72</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250027</StudentNo>
+            <RealScore>43</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250206</StudentNo>
+            <RealScore>47</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250167</StudentNo>
+            <RealScore>47</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250050</StudentNo>
+            <RealScore>49</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250160</StudentNo>
+            <RealScore>59</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250085</StudentNo>
+            <RealScore>61</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250068</StudentNo>
+            <RealScore>63</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250036</StudentNo>
+            <RealScore>63</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250021</StudentNo>
+            <RealScore>71</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250075</StudentNo>
+            <RealScore>71</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000103">
+        <Score>
+            <StudentNo>141250076</StudentNo>
+            <RealScore>78</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250036</StudentNo>
+            <RealScore>40</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250206</StudentNo>
+            <RealScore>43</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250085</StudentNo>
+            <RealScore>43</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250076</StudentNo>
+            <RealScore>52</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250167</StudentNo>
+            <RealScore>56</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250160</StudentNo>
+            <RealScore>59</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250027</StudentNo>
+            <RealScore>64</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250050</StudentNo>
+            <RealScore>65</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250021</StudentNo>
+            <RealScore>70</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250075</StudentNo>
+            <RealScore>76</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="平时成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250068</StudentNo>
+            <RealScore>77</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250036</StudentNo>
+            <RealScore>40</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250076</StudentNo>
+            <RealScore>47</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250085</StudentNo>
+            <RealScore>49</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250068</StudentNo>
+            <RealScore>51</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250027</StudentNo>
+            <RealScore>51</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250160</StudentNo>
+            <RealScore>55</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250167</StudentNo>
+            <RealScore>55</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250075</StudentNo>
+            <RealScore>56</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250206</StudentNo>
+            <RealScore>66</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250050</StudentNo>
+            <RealScore>76</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="总评成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250021</StudentNo>
+            <RealScore>76</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250036</StudentNo>
+            <RealScore>41</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250068</StudentNo>
+            <RealScore>45</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250076</StudentNo>
+            <RealScore>46</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250027</StudentNo>
+            <RealScore>48</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250085</StudentNo>
+            <RealScore>51</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250075</StudentNo>
+            <RealScore>52</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250160</StudentNo>
+            <RealScore>55</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250167</StudentNo>
+            <RealScore>55</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250206</StudentNo>
+            <RealScore>72</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250021</StudentNo>
+            <RealScore>78</RealScore>
+        </Score>
+    </CourseScore>
+    <CourseScore ScoreType="期末成绩" CourseNo="25000104">
+        <Score>
+            <StudentNo>141250050</StudentNo>
+            <RealScore>79</RealScore>
+        </Score>
+    </CourseScore>
+</CourseScoreList>

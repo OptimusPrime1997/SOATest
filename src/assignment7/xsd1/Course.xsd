@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://jw.nju.edu.cn/schema"
+	xmlns:tns="http://jw.nju.edu.cn/schema" elementFormDefault="qualified">
+
+
+	<simpleType name="CourseNoType">
+		<restriction base="string">
+			<length value="8"></length>
+		</restriction>
+	</simpleType>
+	<!-- <element name="CourseNo" type="tns:CourseNoType"></element> -->
+
+
+	<simpleType name="CourseNameType">
+		<restriction base="string">
+			<minLength value="1" />
+			<maxLength value="50" />
+		</restriction>
+	</simpleType>
+	<!-- <element name="课程名" type="tns:CourseNameType" /> -->
+
+
+	<simpleType name="CourseType">
+		<restriction base="string">
+			<enumeration value="专业" />
+			<enumeration value="通识" />
+			<enumeration value="体育" />
+			<enumeration value="公选" />
+			<enumeration value="选修" />
+		</restriction>
+	</simpleType>
+	<!-- <element name="CourseType" type="tns:CourseType" /> -->
+
+
+	<simpleType name="ScoreType">
+		<restriction base="integer">
+			<minExclusive value="1" />
+			<maxInclusive value="8" />
+		</restriction>
+	</simpleType>
+	<!-- <element name="学分" type="tns:ScoreType" /> -->
+
+	<simpleType name="SchType">
+		<restriction base="string">
+			<enumeration value="鼓楼校区" />
+			<enumeration value="仙林校区" />
+		</restriction>
+	</simpleType>
+	
+	<simpleType name="ChooseType">
+		<restriction base="string">
+			<enumeration value="指选" />
+			<enumeration value="自选" />
+		</restriction>
+	</simpleType>
+
+	<complexType name="CourseInfo">
+		<all>
+			<element name="CourseNo" type="tns:CourseNoType"></element>
+			<element name="CourseName" type="string"></element>
+			<element name="Sch" type="tns:SchType"></element>
+			<element name="Teacher" type="string"></element>
+			<element name="TimeAndPlace" type="string"></element>
+			<element name="ChooseType" type="tns:ChooseType"></element>
+			<element name="ExamDate" type="date"></element>
+			<element name="Score" type="tns:ScoreType"></element>
+			<element name="ChooseNum" type="nonNegativeInteger"></element>
+			<element name="CourseDes" type="string"></element>
+			<element name="Book" type="string"></element>
+			<element name="StartDate" type="date"></element>
+			<element name="EndDate" type="date"></element>
+		</all>
+	</complexType>
+
+	<element name="Course" type="tns:CourseInfo"></element>
+
+</schema>

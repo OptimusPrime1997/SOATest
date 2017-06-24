@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://jw.nju.edu.cn/FaultSchema"
+        xmlns:ft="http://jw.nju.edu.cn/FaultSchema" elementFormDefault="qualified">
+    <complexType name="错误类型">
+        <all>
+            <element name = "错误来源" type = "string"/>
+            <element name = "错误描述" type = "string"/>
+        </all>
+    </complexType>
+
+    <element name="目标不存在" type = "ft:错误类型"/>
+    <element name="查询条件错误" type = "ft:错误类型"/>
+    <element name="数据格式错误" type = "ft:错误类型"/>
+    <element name="其他错误" type = "ft:错误类型"/>
+</schema>

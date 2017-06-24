@@ -6,8 +6,11 @@
 	<import namespace="http://www.nju.edu.cn/schema" schemaLocation="PersonInfo.xsd" />
 	<include schemaLocation="Course.xsd" />
 	<include schemaLocation="ScoreList.xsd" />
-	<element name="学号" type="tns:学号类型"></element>
-
+<element name="fakeReturn" type="tns:fakeReturnType"></element>
+	<simpleType name="fakeReturnType">
+		<restriction base="string">
+		</restriction>
+	</simpleType>
 	<simpleType name="学号类型">
 		<restriction base="string">
 			<length value="9"></length>
@@ -36,6 +39,7 @@
 		</all>
 		<attribute name="学号" type="tns:学号类型"></attribute>
 	</complexType>
-<element name="学生" type="tns:学生信息" />
+	<element name="学生" type="tns:学生信息" />
+	<element name="学号" type="tns:学号类型"></element>
 	
 </schema>

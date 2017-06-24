@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://jw.nju.edu.cn/FaultSchema"
+        xmlns:ft="http://jw.nju.edu.cn/FaultSchema" elementFormDefault="qualified">
+    <complexType name="WrongType">
+        <all>
+            <element name = "WrongFrom" type = "string"/>
+            <element name = "WrongDes" type = "string"/>
+        </all>
+    </complexType>
+
+    <element name="NotExist" type = "ft:WrongType"/>
+    <element name="InvalidCandi" type = "ft:WrongType"/>
+    <element name="WrongDataType" type = "ft:WrongType"/>
+    <element name="WrongOther" type = "ft:WrongType"/>
+</schema>

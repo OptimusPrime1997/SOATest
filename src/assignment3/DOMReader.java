@@ -13,15 +13,15 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 public class DOMReader {
-	public static List<Student> readXMLFile(String path) {
-		List<Student> myStudentList = new ArrayList<Student>();
+	public static List<Stu> readXMLFile(String path) {
+		List<Stu> myStudentList = new ArrayList<Stu>();
 		try {
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 			Document doc = dBuilder.parse(new File(path));
 			NodeList studentList = doc.getElementsByTagName("Ñ§Éú");
 			for (int i = 0; i < studentList.getLength(); i++) {
-				Student student = new Student();
+				Stu student = new Stu();
 				Node studentNode = studentList.item(i);
 				if (studentNode.getNodeType() == Node.ELEMENT_NODE) {
 					Element studentElement = (Element) studentNode;

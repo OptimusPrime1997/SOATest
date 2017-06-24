@@ -6,15 +6,15 @@
 	<import namespace="http://www.nju.edu.cn/schema" schemaLocation="PersonInfo.xsd" />
 	<include schemaLocation="Course.xsd" />
 	<include schemaLocation="ScoreList.xsd" />
-	<element name="学号" type="tns:学号类型"></element>
+	<element name="StudentNo" type="tns:StudentNoType"></element>
 
-	<simpleType name="学号类型">
+	<simpleType name="StudentNoType">
 		<restriction base="string">
 			<length value="9"></length>
 		</restriction>
 	</simpleType>
 
-	<simpleType name="年级类型">
+	<simpleType name="GradeType">
 		<restriction base="string">
 			<enumeration value="大一"></enumeration>
 			<enumeration value="大二"></enumeration>
@@ -28,23 +28,23 @@
 		</restriction>
 	</simpleType>
 
-	<complexType name="学生信息">
+	<complexType name="StudentInfo">
 		<all>
-			<element name="年级" type="tns:年级类型"></element>
-			<element ref="nju:个人基本信息"></element>
-			<element ref="tns:课程成绩列表"></element>
+			<element name="Grade" type="tns:GradeType"></element>
+			<element ref="nju:IndividualBaseInfo"></element>
+			<element ref="tns:CourseScoreList"></element>
 		</all>
-		<attribute name="学号" type="tns:学号类型"></attribute>
+		<attribute name="StudentNo" type="tns:StudentNoType"></attribute>
 	</complexType>
 
-	<complexType name="学生列表类型">
+	<complexType name="StudentListType">
 		<sequence minOccurs="0" maxOccurs="unbounded">
-			<element name="学生" type="tns:学生信息"></element>
+			<element name="Student" type="tns:StudentInfo"></element>
 		</sequence>
 
 	</complexType>
 
-	<element name="学生" type="tns:学生信息" />
+	<element name="Student" type="tns:StudentInfo" />
 
-	<element name="学生列表" type="tns:学生列表类型"></element>
+	<element name="StudentList" type="tns:StudentListType"></element>
 </schema>

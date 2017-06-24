@@ -2,7 +2,7 @@ package assignment3;
 
 import java.util.List;
 
-public class Student {
+public class Stu {
 	private String studentNo;
 	private String name;
 	private String sex;
@@ -10,15 +10,13 @@ public class Student {
 	private String id;
 	private String phoneNum;
 	private List<CourseScore> scoreList;
-	
-	public Student() {
+
+	public Stu() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	
-
-	public Student(String studentNo, String name, String sex, String birthDate, String id, String phoneNum) {
+	public Stu(String studentNo, String name, String sex, String birthDate, String id, String phoneNum) {
 		super();
 		this.studentNo = studentNo;
 		this.name = name;
@@ -32,13 +30,9 @@ public class Student {
 		return scoreList;
 	}
 
-
-
 	public void setScoreList(List<CourseScore> scoreList) {
 		this.scoreList = scoreList;
 	}
-
-
 
 	public String getStudentNo() {
 		return studentNo;
@@ -88,12 +82,12 @@ public class Student {
 		this.phoneNum = phoneNum;
 	}
 
-
-
 	@Override
 	public String toString() {
-		return "Student [studentNo=" + studentNo + ", name=" + name + ", sex=" + sex + ", birthDate=" + birthDate
-				+ ", id=" + id + ", phoneNum=" + phoneNum + ", scoreList=" + scoreList.size()+ ","+scoreList.get(0).toString()+ "]";
+		return "Stu [studentNo=" + studentNo + ", name=" + name + ", sex=" + sex + ", birthDate=" + birthDate + ", id="
+				+ id + ", phoneNum=" + phoneNum + "]";
 	}
+
+	
 
 }

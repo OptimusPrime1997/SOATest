@@ -67,3 +67,6 @@ $RECYCLE.BIN/
 /.settings/
 /build/
 /WebContent/
+/SOA11/.settings/
+/SOA11/.build/
+

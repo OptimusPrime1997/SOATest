@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<学生 学号="141250027" xmlns="http://jw.nju.edu.cn/schema">
-	<年级>大三</年级>
-	<个人基本信息>
-		<姓名>邸思诺</姓名>
-		<性别>女</性别>
-		<出生日期>1996-04-01</出生日期>
-		<身份证号>311302199604015327</身份证号>
-		<教育背景>本科</教育背景>
-		<婚姻状况>未婚</婚姻状况>
-		<手机号码>13912993960</手机号码>
-		<地址>江苏省南京市鼓楼区汉口路22号</地址>
-		<部门 部门属性="院" 部门编号="109125" 部门名称="软件学院" 部门电话="025-89680208">
-			<部门主管>陈琳</部门主管>
-			<部门描述>以培养卓越且杰出的高素质软件工程师为己任</部门描述>
-		</部门>
+<Student StudentNo="141250027" xmlns="http://jw.nju.edu.cn/schema">
+	<Grade>大三</Grade>
+	<IndividualBaseInfo>
+		<Name>邸思诺</Name>
+		<Sex>女</Sex>
+		<Birth>1996-04-01</Birth>
+		<Id>311302199604015327</Id>
+		<EducationBackground>本科</EducationBackground>
+		<MaritalStatus>未婚</MaritalStatus>
+		<PhoneNum>13912993960</PhoneNum>
+		<Address>江苏省南京市鼓楼区汉口路22号</Address>
+		<Department DepartmentAttribute="院" DepartmentNo="109125" DepartmentName="软件学院" Department电话="025-89680208">
+			<DepartmentManager>陈琳</DepartmentManager>
+			<DepartmentDescribe>以培养卓越且杰出的高素质软件工程师为己任</DepartmentDescribe>
+		</Department>
 
-		<课程成绩列表>
-			<课程成绩 课程编号="25000100" 成绩性质="平时成绩">
-				<成绩>
-					<学号>141250027</学号>
-					<得分>20</得分>
-				</成绩>
-			</课程成绩>
-			<课程成绩 课程编号="25000100" 成绩性质="作业成绩">
-				<成绩>
-					<学号>141250027</学号>
-					<得分>20</得分>
-				</成绩>
-			</课程成绩>
-			<课程成绩 课程编号="25000100" 成绩性质="期中成绩">
-				<成绩>
-					<学号>141250027</学号>
-					<得分>20</得分>
-				</成绩>
-			</课程成绩>
-			<课程成绩 课程编号="25000100" 成绩性质="期末成绩">
-				<成绩>
-					<学号>141250027</学号>
-					<得分>95</得分>
-				</成绩>
-			</课程成绩>
-			<课程成绩 课程编号="25000100" 成绩性质="总评成绩">
-				<成绩>
-					<学号>141250027</学号>
-					<得分>98</得分>
-				</成绩>
-			</课程成绩>
-		</课程成绩列表>
-	</个人基本信息>
-</学生>
+		<CourseScoreList>
+			<CourseScore CourseNo="25000100" ScoreType="平时成绩">
+				<Score>
+					<StudentNo>141250027</StudentNo>
+					<RealScore>20</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore CourseNo="25000100" ScoreType="作业成绩">
+				<Score>
+					<StudentNo>141250027</StudentNo>
+					<RealScore>20</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore CourseNo="25000100" ScoreType="期中成绩">
+				<Score>
+					<StudentNo>141250027</StudentNo>
+					<RealScore>20</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore CourseNo="25000100" ScoreType="期末成绩">
+				<Score>
+					<StudentNo>141250027</StudentNo>
+					<RealScore>95</RealScore>
+				</Score>
+			</CourseScore>
+			<CourseScore CourseNo="25000100" ScoreType="总评成绩">
+				<Score>
+					<StudentNo>141250027</StudentNo>
+					<RealScore>98</RealScore>
+				</Score>
+			</CourseScore>
+		</CourseScoreList>
+	</IndividualBaseInfo>
+</Student>

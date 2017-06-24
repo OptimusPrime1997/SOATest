@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions targetNamespace="http://jw.nju.edu.cn/wsdl"
+	xmlns:tns="http://jw.nju.edu.cn/wsdl" xmlns:nju="http://www.nju.edu.cn/schema"
+	xmlns:jw="http://jw.nju.edu.cn/schema" xmlns:ft="http://jw.nju.edu.cn/FaultSchema"
+	xmlns:whttp="http://www.w3.org/ns/wsdl/http" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:wsdlx="http://www.w3.org/ns/wsdl-extensions" xmlns="http://schemas.xmlsoap.org/wsdl/"
+	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+	<types>
+		<xs:schema targetNamespace="http://jw.nju.edu.cn/schema">
+			<xs:include schemaLocation="../xsd/XML_1_2.xsd" />
+			<xs:element name="boolReturn" type="xs:boolean" />
+		</xs:schema>
+		<xs:schema targetNamespace="http://jw.nju.edu.cn/FaultSchema">
+			<xs:include schemaLocation="../xsd/Faults.xsd" />
+		</xs:schema>
+	</types>
+	<message name="studentNo">
+		<part name="parameters" element="jw:StudentNo" />
+	</message>
+	<message name="student">
+		<part name="parameters" element="jw:Student" />
+	</message>
+	<message name="boolReturn">
+		<part name="parameters" element="jw:boolReturn" />
+	</message>
+	<message name="notExistFault">
+		<part name="parameters" element="ft:notExistFault" />
+	</message>
+	<message name="alreadyExistFault">
+		<part name="parameters" element="ft:alreadyExistFault" />
+	</message>
+
+
+
+	<portType name="StudentInfoPort">
+
+		<operation name="getStudentInfo">
+			<documentation>
+				This operation returns the student's info,
+				if the
+				student with the input id exists
+			</documentation>
+			<input message="tns:studentNo" />
+			<output message="tns:student" />
+			<fault name="getStudentNotExistFault" message="tns:notExistFault" />
+		</operation>
+
+		<operation name="modifyStudentInfo">
+			<documentation>
+				This operation modify the student's info,
+				if the
+				student with the input id exists
+			</documentation>
+			<input message="tns:student" />
+			<output message="tns:boolReturn" />
+			<fault name="modifyStudentNotExistFault" message="tns:notExistFault" />
+		</operation>
+
+		<operation name="deleteStudentInfo">
+			<documentation>
+				This operation delete the student's info,
+				if the
+				student with the input id exists
+			</documentation>
+			<input message="tns:studentNo" />
+			<output message="tns:boolReturn" />
+			<fault name="deleteStudentNotExistFault" message="tns:notExistFault" />
+		</operation>
+		<operation name="addStudentInfo">
+			<documentation>
+				This operation add a student's info,
+				if the student
+				with the input id not exists
+			</documentation>
+			<input message="tns:student" />
+			<output message="tns:boolReturn" />
+			<fault name="addStudentAlreadyExistFault" message="tns:alreadyExistFault" />
+		</operation>
+	</portType>
+
+	<binding name="StudentInfoHTTPBinding" type="tns:StudentInfoPort">
+		<soap:binding style="document"
+			transport="http://schemas.xmlsoap.org/soap/http" />
+		<operation name="getStudentInfo">
+			<input>
+				<soap:body use="literal" />
+			</input>
+			<output>
+				<soap:body use="literal" />
+			</output>
+			<fault name="getStudentNotExistFault">
+				<soap:fault name="getStudentNotExistFault" />
+			</fault>
+		</operation>
+
+		<operation name="modifyStudentInfo">
+			<input>
+				<soap:body use="literal" />
+			</input>
+			<fault name="modifyStudentNotExistFault">
+				<soap:fault name="modifyStudentNotExistFault" />
+			</fault>
+		</operation>
+
+		<operation name="deleteStudentInfo">
+			<input>
+				<soap:body use="literal" />
+			</input>
+			<fault name="deleteStudentNotExistFault">
+				<soap:fault name="deleteStudentNotExistFault" />
+			</fault>
+		</operation>
+
+		<operation name="addStudentInfo">
+			<input>
+				<soap:body use="literal" />
+			</input>
+			<fault name="addStudentAlreadyExistFault">
+				<soap:fault name="addStudentAlreadyExistFault" />
+			</fault>
+		</operation>
+
+	</binding>
+
+	<service name="StudentInfoService">
+		<port name="StudentInfoPort" binding="tns:StudentInfoHTTPBinding">
+			<soap:address location="http://jw.nju.edu.cn/studentInfo/" />
+		</port>
+	</service>
+</definitions>

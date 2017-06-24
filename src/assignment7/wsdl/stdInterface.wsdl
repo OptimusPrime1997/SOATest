@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<description
+        xmlns="http://www.w3.org/ns/wsdl"
+        targetNamespace="http://jw.nju.edu.cn/wsdl"
+        xmlns:wns="http://jw.nju.edu.cn/wsdl"
+        xmlns:tns="http://jw.nju.edu.cn/schema"
+        xmlns:nju="http://www.nju.edu.cn/schema"
+        xmlns:wsdlx="http://www.w3.org/ns/wsdl-extensions"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:whttp="http://www.w3.org/ns/wsdl/http"
+        xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+        xmlns:wsoap="http://www.w3.org/ns/wsdl/soap"
+        xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+       >
+    <!--schema import-->
+    <import
+            namespace="http://jw.nju.edu.cn/schema"
+            location="../xsd/ScoreList.xsd"/>
+    <import
+            namespace="http://jw.nju.edu.cn/schema"
+            location="../xsd/Student.xsd"/>
+    <import
+            namespace="http://jw.nju.edu.cn/schema"
+            location="../xsd/MessageFault.xsd"/>
+
+   
+
+
+
+</description>

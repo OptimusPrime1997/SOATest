@@ -1,1 +1,993 @@
-<?xml version="1.0" encoding="UTF-8"?><ns0:课程成绩列表 xmlns:ns0="http://jw.nju.edu.cn/schema"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:CourseScoreList xmlns:tns="http://jw.nju.edu.cn/schema">
+    <tns:CourseScore CourseNo="25000100" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250068</tns:StudentNo>
+            <tns:RealScore>42</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250036</tns:StudentNo>
+            <tns:RealScore>57</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250076</tns:StudentNo>
+            <tns:RealScore>59</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250027</tns:StudentNo>
+            <tns:RealScore>61</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250050</tns:StudentNo>
+            <tns:RealScore>62</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250167</tns:StudentNo>
+            <tns:RealScore>62</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250085</tns:StudentNo>
+            <tns:RealScore>64</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250160</tns:StudentNo>
+            <tns:RealScore>66</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250021</tns:StudentNo>
+            <tns:RealScore>72</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250075</tns:StudentNo>
+            <tns:RealScore>72</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250206</tns:StudentNo>
+            <tns:RealScore>79</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250076</tns:StudentNo>
+            <tns:RealScore>47</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250036</tns:StudentNo>
+            <tns:RealScore>52</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250027</tns:StudentNo>
+            <tns:RealScore>52</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250160</tns:StudentNo>
+            <tns:RealScore>54</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250050</tns:StudentNo>
+            <tns:RealScore>54</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250021</tns:StudentNo>
+            <tns:RealScore>55</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250206</tns:StudentNo>
+            <tns:RealScore>60</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250167</tns:StudentNo>
+            <tns:RealScore>66</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250085</tns:StudentNo>
+            <tns:RealScore>67</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250068</tns:StudentNo>
+            <tns:RealScore>68</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250075</tns:StudentNo>
+            <tns:RealScore>72</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250076</tns:StudentNo>
+            <tns:RealScore>45</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250027</tns:StudentNo>
+            <tns:RealScore>50</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250160</tns:StudentNo>
+            <tns:RealScore>51</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250036</tns:StudentNo>
+            <tns:RealScore>51</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250021</tns:StudentNo>
+            <tns:RealScore>51</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250050</tns:StudentNo>
+            <tns:RealScore>53</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250206</tns:StudentNo>
+            <tns:RealScore>56</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250167</tns:StudentNo>
+            <tns:RealScore>67</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250085</tns:StudentNo>
+            <tns:RealScore>68</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250075</tns:StudentNo>
+            <tns:RealScore>73</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000100" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250068</tns:StudentNo>
+            <tns:RealScore>75</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250021</tns:StudentNo>
+            <tns:RealScore>40</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250050</tns:StudentNo>
+            <tns:RealScore>41</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250027</tns:StudentNo>
+            <tns:RealScore>44</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250068</tns:StudentNo>
+            <tns:RealScore>50</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250036</tns:StudentNo>
+            <tns:RealScore>58</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250075</tns:StudentNo>
+            <tns:RealScore>58</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250206</tns:StudentNo>
+            <tns:RealScore>60</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250076</tns:StudentNo>
+            <tns:RealScore>66</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250085</tns:StudentNo>
+            <tns:RealScore>70</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250167</tns:StudentNo>
+            <tns:RealScore>76</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250160</tns:StudentNo>
+            <tns:RealScore>79</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250021</tns:StudentNo>
+            <tns:RealScore>44</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250160</tns:StudentNo>
+            <tns:RealScore>48</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250167</tns:StudentNo>
+            <tns:RealScore>52</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250050</tns:StudentNo>
+            <tns:RealScore>53</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250027</tns:StudentNo>
+            <tns:RealScore>53</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250076</tns:StudentNo>
+            <tns:RealScore>58</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250036</tns:StudentNo>
+            <tns:RealScore>58</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250068</tns:StudentNo>
+            <tns:RealScore>68</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250075</tns:StudentNo>
+            <tns:RealScore>68</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250085</tns:StudentNo>
+            <tns:RealScore>70</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250206</tns:StudentNo>
+            <tns:RealScore>71</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250160</tns:StudentNo>
+            <tns:RealScore>41</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250021</tns:StudentNo>
+            <tns:RealScore>46</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250167</tns:StudentNo>
+            <tns:RealScore>47</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250050</tns:StudentNo>
+            <tns:RealScore>56</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250027</tns:StudentNo>
+            <tns:RealScore>56</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250076</tns:StudentNo>
+            <tns:RealScore>57</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250036</tns:StudentNo>
+            <tns:RealScore>58</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250085</tns:StudentNo>
+            <tns:RealScore>71</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250075</tns:StudentNo>
+            <tns:RealScore>71</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250068</tns:StudentNo>
+            <tns:RealScore>73</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000101" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250206</tns:StudentNo>
+            <tns:RealScore>74</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250021</tns:StudentNo>
+            <tns:RealScore>43</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250036</tns:StudentNo>
+            <tns:RealScore>44</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250167</tns:StudentNo>
+            <tns:RealScore>50</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250027</tns:StudentNo>
+            <tns:RealScore>61</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250085</tns:StudentNo>
+            <tns:RealScore>65</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250050</tns:StudentNo>
+            <tns:RealScore>67</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250075</tns:StudentNo>
+            <tns:RealScore>73</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250206</tns:StudentNo>
+            <tns:RealScore>74</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250076</tns:StudentNo>
+            <tns:RealScore>74</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250068</tns:StudentNo>
+            <tns:RealScore>74</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250160</tns:StudentNo>
+            <tns:RealScore>79</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250206</tns:StudentNo>
+            <tns:RealScore>46</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250036</tns:StudentNo>
+            <tns:RealScore>48</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250021</tns:StudentNo>
+            <tns:RealScore>59</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250068</tns:StudentNo>
+            <tns:RealScore>61</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250075</tns:StudentNo>
+            <tns:RealScore>62</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250160</tns:StudentNo>
+            <tns:RealScore>63</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250050</tns:StudentNo>
+            <tns:RealScore>63</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250085</tns:StudentNo>
+            <tns:RealScore>66</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250027</tns:StudentNo>
+            <tns:RealScore>68</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250076</tns:StudentNo>
+            <tns:RealScore>70</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250167</tns:StudentNo>
+            <tns:RealScore>73</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250206</tns:StudentNo>
+            <tns:RealScore>40</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250036</tns:StudentNo>
+            <tns:RealScore>49</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250068</tns:StudentNo>
+            <tns:RealScore>58</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250160</tns:StudentNo>
+            <tns:RealScore>60</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250075</tns:StudentNo>
+            <tns:RealScore>60</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250050</tns:StudentNo>
+            <tns:RealScore>63</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250021</tns:StudentNo>
+            <tns:RealScore>63</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250085</tns:StudentNo>
+            <tns:RealScore>67</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250076</tns:StudentNo>
+            <tns:RealScore>70</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250027</tns:StudentNo>
+            <tns:RealScore>70</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000102" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250167</tns:StudentNo>
+            <tns:RealScore>79</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250167</tns:StudentNo>
+            <tns:RealScore>49</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250036</tns:StudentNo>
+            <tns:RealScore>52</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250068</tns:StudentNo>
+            <tns:RealScore>53</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250027</tns:StudentNo>
+            <tns:RealScore>64</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250021</tns:StudentNo>
+            <tns:RealScore>65</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250206</tns:StudentNo>
+            <tns:RealScore>67</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250160</tns:StudentNo>
+            <tns:RealScore>68</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250075</tns:StudentNo>
+            <tns:RealScore>68</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250050</tns:StudentNo>
+            <tns:RealScore>69</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250085</tns:StudentNo>
+            <tns:RealScore>71</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250076</tns:StudentNo>
+            <tns:RealScore>74</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250206</tns:StudentNo>
+            <tns:RealScore>47</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250027</tns:StudentNo>
+            <tns:RealScore>47</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250068</tns:StudentNo>
+            <tns:RealScore>48</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250050</tns:StudentNo>
+            <tns:RealScore>52</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250076</tns:StudentNo>
+            <tns:RealScore>53</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250167</tns:StudentNo>
+            <tns:RealScore>53</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250021</tns:StudentNo>
+            <tns:RealScore>53</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250085</tns:StudentNo>
+            <tns:RealScore>64</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250075</tns:StudentNo>
+            <tns:RealScore>67</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250036</tns:StudentNo>
+            <tns:RealScore>70</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250160</tns:StudentNo>
+            <tns:RealScore>71</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250206</tns:StudentNo>
+            <tns:RealScore>42</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250027</tns:StudentNo>
+            <tns:RealScore>43</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250068</tns:StudentNo>
+            <tns:RealScore>47</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250050</tns:StudentNo>
+            <tns:RealScore>48</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250076</tns:StudentNo>
+            <tns:RealScore>48</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250021</tns:StudentNo>
+            <tns:RealScore>51</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250167</tns:StudentNo>
+            <tns:RealScore>54</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250085</tns:StudentNo>
+            <tns:RealScore>63</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250075</tns:StudentNo>
+            <tns:RealScore>67</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250160</tns:StudentNo>
+            <tns:RealScore>72</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000103" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250036</tns:StudentNo>
+            <tns:RealScore>75</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250206</tns:StudentNo>
+            <tns:RealScore>41</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250167</tns:StudentNo>
+            <tns:RealScore>47</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250036</tns:StudentNo>
+            <tns:RealScore>49</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250076</tns:StudentNo>
+            <tns:RealScore>61</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250085</tns:StudentNo>
+            <tns:RealScore>61</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250068</tns:StudentNo>
+            <tns:RealScore>64</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250027</tns:StudentNo>
+            <tns:RealScore>64</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250021</tns:StudentNo>
+            <tns:RealScore>66</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250160</tns:StudentNo>
+            <tns:RealScore>73</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250050</tns:StudentNo>
+            <tns:RealScore>73</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="平时成绩">
+        <tns:Score>
+            <tns:StudentNo>141250075</tns:StudentNo>
+            <tns:RealScore>76</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250027</tns:StudentNo>
+            <tns:RealScore>51</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250076</tns:StudentNo>
+            <tns:RealScore>54</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250050</tns:StudentNo>
+            <tns:RealScore>55</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250075</tns:StudentNo>
+            <tns:RealScore>56</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250068</tns:StudentNo>
+            <tns:RealScore>59</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250036</tns:StudentNo>
+            <tns:RealScore>60</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250206</tns:StudentNo>
+            <tns:RealScore>62</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250085</tns:StudentNo>
+            <tns:RealScore>63</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250167</tns:StudentNo>
+            <tns:RealScore>65</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250160</tns:StudentNo>
+            <tns:RealScore>70</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="总评成绩">
+        <tns:Score>
+            <tns:StudentNo>141250021</tns:StudentNo>
+            <tns:RealScore>73</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250027</tns:StudentNo>
+            <tns:RealScore>48</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250050</tns:StudentNo>
+            <tns:RealScore>51</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250075</tns:StudentNo>
+            <tns:RealScore>51</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250076</tns:StudentNo>
+            <tns:RealScore>53</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250068</tns:StudentNo>
+            <tns:RealScore>58</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250036</tns:StudentNo>
+            <tns:RealScore>63</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250085</tns:StudentNo>
+            <tns:RealScore>64</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250206</tns:StudentNo>
+            <tns:RealScore>68</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250160</tns:StudentNo>
+            <tns:RealScore>70</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250167</tns:StudentNo>
+            <tns:RealScore>70</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+    <tns:CourseScore CourseNo="25000104" ScoreType="期末成绩">
+        <tns:Score>
+            <tns:StudentNo>141250021</tns:StudentNo>
+            <tns:RealScore>75</tns:RealScore>
+        </tns:Score>
+    </tns:CourseScore>
+</tns:CourseScoreList>

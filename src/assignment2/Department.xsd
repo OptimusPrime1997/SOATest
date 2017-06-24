@@ -4,37 +4,37 @@
 	elementFormDefault="qualified">
 
 	<include schemaLocation="Department.xsd"></include>
-	<simpleType name="部门名称类型">
+	<simpleType name="DepartmentNameType">
 		<restriction base="string">
 			<minLength value="1"></minLength>
 			<maxLength value="50"></maxLength>
 		</restriction>
 	</simpleType>
 
-	<simpleType name="部门编号类型">
+	<simpleType name="DepartmentNoType">
 		<restriction base="string">
 			<length value="6"></length>
 		</restriction>
 	</simpleType>
 
-	<!-- <element name="部门电话" type="nju:部门电话类型" /> -->
-	<simpleType name="部门电话类型">
+	<!-- <element name="Department电话" type="nju:Department电话Type" /> -->
+	<simpleType name="Department电话Type">
 		<restriction base="string">
 			<pattern value="[0]([0-9]){2}-([0-9]){8}" />
 		</restriction>
 	</simpleType>
 
-	<simpleType name="部门属性类型">
+	<simpleType name="DepartmentAttributeType">
 		<restriction base="string">
 			<enumeration value="系"></enumeration>
 			<enumeration value="院"></enumeration>
 			<enumeration value="直属"></enumeration>
-			<enumeration value="行政部门"></enumeration>
+			<enumeration value="行政Department"></enumeration>
 		</restriction>
 	</simpleType>
 
-	<!-- <element name="部门负责人" type="nju:部门负责人类型" /> -->
-	<simpleType name="部门主管类型">
+	<!-- <element name="Department负责人" type="nju:Department负责人Type" /> -->
+	<simpleType name="DepartmentManagerType">
 		<restriction base="string">
 			<minLength value="1" />
 			<maxLength value="20" />
@@ -42,16 +42,16 @@
 	</simpleType>
 
 
-	<complexType name="部门类型">
+	<complexType name="DepartmentType">
 		<all>
-			<element name="部门主管" type="nju:部门主管类型"></element>
-			<element name="部门描述" type="string"></element>
+			<element name="DepartmentManager" type="nju:DepartmentManagerType"></element>
+			<element name="DepartmentDescribe" type="string"></element>
 		</all>
-		<attribute name="部门属性" type="nju:部门属性类型"></attribute>
-		<attribute name="部门编号" type="nju:部门编号类型"></attribute>
-		<attribute name="部门名称" type="nju:部门名称类型"></attribute>
-		<attribute name="部门电话" type="nju:部门电话类型"></attribute>
+		<attribute name="DepartmentAttribute" type="nju:DepartmentAttributeType"></attribute>
+		<attribute name="DepartmentNo" type="nju:DepartmentNoType"></attribute>
+		<attribute name="DepartmentName" type="nju:DepartmentNameType"></attribute>
+		<attribute name="Department电话" type="nju:Department电话Type"></attribute>
 	</complexType>
 
-	<element name="部门" type="nju:部门类型" />
+	<element name="Department" type="nju:DepartmentType" />
 </schema>

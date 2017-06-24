@@ -38,18 +38,18 @@ public class ContentHandler extends DefaultHandler {
 	@Override
 	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
 		super.startElement(uri, localName, qName, attributes);
-		if (qName.equals("课程成绩")) {
+		if (qName.equals("tns:课程成绩")) {
 			String courseNo = attributes.getValue("课程编号");
 			String courseAttr = attributes.getValue("成绩性质");
 			courseScore = new CourseScore(courseNo, courseAttr);
 			list = new ArrayList<Score>();
 			map.put(courseScore, list);
-		} else if (qName.equals("成绩")) {
+		} else if (qName.equals("tns:成绩")) {
 			score = new Score();
 			list = map.get(courseScore);
-		} else if (qName.equals("学号")) {
+		} else if (qName.equals("tns:学号")) {
 			studentNoFlag = 0;
-		} else if (qName.equals("得分")) {
+		} else if (qName.equals("tns:得分")) {
 			studentNoFlag = 1;
 		}
 	}
@@ -76,9 +76,9 @@ public class ContentHandler extends DefaultHandler {
 	@Override
 	public void endElement(String uri, String localName, String qName) throws SAXException {
 		super.endElement(uri, localName, qName);
-		if (qName.equals("学号")) {
+		if (qName.equals("tns:学号")) {
 			studentNoFlag = -1;
-		} else if (qName.equals("得分")) {
+		} else if (qName.equals("tns:得分")) {
 			studentNoFlag = -1;
 		}
 	}
