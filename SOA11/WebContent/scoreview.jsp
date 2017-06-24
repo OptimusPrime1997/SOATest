@@ -63,7 +63,7 @@ button.link {
 					</div>
 					<div class="col-sm-2">
 						<!-- <button type="submit" class="btn btn-default">提交</button> -->
-						<button type="submit" class="btn btn-success" id="loginBt">
+						<button type="submit" class="btn btn-success" id="seachBtn">
 							<span class="glyphicon glyphicon-search"></span> 搜索
 						</button>
 					</div>
